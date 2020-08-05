@@ -1,0 +1,999 @@
+custId,custName,custCountry,productSold,salesChannel,unitsSold,dateSold
+23262,Candice Levy,Congo,SUPA101,Retail,117,2012-08-09
+23263,Xerxes Smith,Panama,DETA200,Online,73,2012-07-06
+23264,Levi Douglas,"Tanzania, United Republic of",DETA800,Online,205,2012-08-18
+23265,Uriel Benton,South Africa,SUPA104,Online,14,2012-08-05
+23266,Celeste Pugh,Gabon,PURA200,Retail,170,2012-08-11
+23267,Vance Campos,Syrian Arab Republic,PURA100,Retail,129,2012-07-11
+23268,Latifah Wall,Guadeloupe,DETA100,Retail,82,2012-07-12
+23269,Jane Hernandez,Macedonia,PURA100,Retail,116,2012-06-03
+23270,Wanda Garza,Kyrgyzstan,SUPA103,Online,67,2012-06-07
+23271,Athena Fitzpatrick,Reunion,SUPA103,Retail,125,2012-07-27
+23272,Anjolie Hicks,Turks and Caicos Islands,DETA200,Retail,71,2012-07-31
+23273,Isaac Cooper,Netherlands Antilles,SUPA104,Retail,22,2012-08-13
+23274,Asher Weber,Macedonia,PURA100,Direct,153,2012-08-22
+23275,Ethan Gregory,Tuvalu,DETA800,Retail,141,2012-07-04
+23276,Hayes Rollins,Nepal,PURA500,Direct,65,2012-08-01
+23277,MacKenzie Moss,Oman,SUPA101,Online,157,2012-07-12
+23278,Aphrodite Brennan,Malawi,SUPA105,Online,197,2012-08-24
+23279,Angela Wise,Moldova,PURA100,Direct,10,2012-06-21
+23280,James Spencer,Burkina Faso,SUPA103,Direct,30,2012-06-03
+23281,Adria Kaufman,Bouvet Island,SUPA102,Online,134,2012-07-13
+23282,Amir Alexander,Liberia,DETA100,Online,100,2012-08-21
+23283,Lani Sweet,Vanuatu,SUPA105,Online,142,2012-06-24
+23284,Clark Weaver,Palau,PURA250,Online,135,2012-06-17
+23285,Leonard Cardenas,Madagascar,SUPA102,Online,9,2012-07-24
+23286,Renee Padilla,Yemen,DETA800,Retail,69,2012-08-08
+23287,Joy Vazquez,Korea,PURA250,Retail,189,2012-06-17
+23288,Ingrid Bush,Montserrat,SUPA104,Direct,141,2012-06-14
+23289,Deacon Craig,Mongolia,SUPA105,Retail,166,2012-08-02
+23290,Rama Goodwin,Tunisia,DETA800,Online,170,2012-08-11
+23291,Jelani Odonnell,Albania,DETA800,Retail,199,2012-08-18
+23292,Liberty Mcbride,Fiji,SUPA105,Online,73,2012-07-03
+23293,Britanni Bender,Angola,SUPA101,Online,117,2012-06-30
+23294,Samuel Ayala,Brazil,DETA800,Direct,160,2012-06-22
+23295,Shad Delacruz,Solomon Islands,SUPA101,Online,45,2012-06-09
+23296,India Gilbert,Denmark,SUPA105,Retail,37,2012-06-08
+23297,Ursula Mcconnell,Hungary,DETA800,Online,135,2012-08-12
+23298,Ryder Conner,"Virgin Islands, British",PURA250,Retail,12,2012-07-28
+23299,Germaine Kidd,Niger,PURA200,Online,104,2012-06-27
+23300,Rhona Clarke,"Palestinian Territory, Occupied",SUPA104,Retail,167,2012-07-07
+23301,Maxwell Parker,Falkland Islands (Malvinas),SUPA103,Retail,108,2012-07-19
+23302,Isaac Wolf,Panama,PURA500,Retail,105,2012-07-27
+23303,Guinevere Key,Colombia,SUPA105,Retail,176,2012-08-17
+23304,Deanna Santana,Solomon Islands,PURA200,Online,131,2012-06-01
+23305,Jared Sandoval,Botswana,DETA800,Online,188,2012-08-26
+23306,Ima Cummings,Philippines,DETA200,Online,93,2012-06-08
+23307,Oprah Ellis,Dominican Republic,DETA100,Online,113,2012-07-04
+23308,Dara Cunningham,Saint Helena,PURA100,Retail,112,2012-07-09
+23309,Buckminster Hopkins,Sierra Leone,PURA200,Online,201,2012-06-23
+23310,Kenyon Joyce,Canada,SUPA104,Retail,41,2012-06-17
+23311,Forrest Macdonald,New Caledonia,SUPA105,Online,18,2012-06-12
+23312,Thomas Barnes,Mayotte,PURA200,Retail,28,2012-07-06
+23313,Cruz Pacheco,"Palestinian Territory, Occupied",SUPA101,Online,137,2012-07-15
+23314,Maxine Gentry,Panama,SUPA104,Direct,95,2012-08-10
+23315,Anika Tillman,Burkina Faso,PURA250,Retail,109,2012-07-12
+23316,Robert Juarez,Svalbard and Jan Mayen,PURA200,Online,137,2012-06-01
+23317,Kay Buckley,Malta,PURA250,Retail,196,2012-07-17
+23318,Shea Cortez,India,DETA200,Online,48,2012-07-09
+23319,Sylvester Roy,Gibraltar,SUPA101,Online,4,2012-08-03
+23320,Lance Little,Croatia,DETA100,Retail,125,2012-06-15
+23321,Kareem Mays,Holy See (Vatican City State),SUPA101,Retail,211,2012-08-13
+23322,Arsenio Knowles,Malaysia,PURA100,Online,20,2012-06-10
+23323,Colby Knapp,Pakistan,PURA100,Online,135,2012-08-29
+23324,Noble Warner,Burkina Faso,SUPA104,Direct,193,2012-08-13
+23325,Isadora Mcclure,Indonesia,DETA100,Online,184,2012-06-22
+23326,Katelyn Joseph,Slovenia,SUPA102,Online,126,2012-08-21
+23327,Fletcher Jimenez,Chad,DETA200,Online,176,2012-07-31
+23328,Keaton Wolfe,French Southern Territories,SUPA105,Online,102,2012-07-15
+23329,Melinda Cobb,Uruguay,PURA250,Online,203,2012-07-23
+23330,Aurelia Flores,United Kingdom,SUPA101,Online,177,2012-08-04
+23331,Bevis Mcdonald,American Samoa,SUPA101,Retail,51,2012-08-04
+23332,Yael Carter,Malaysia,PURA250,Retail,203,2012-07-11
+23333,Sawyer Stokes,Malta,PURA250,Retail,106,2012-08-05
+23334,Silas Battle,Niue,PURA100,Online,14,2012-08-17
+23335,Noble Gilbert,United States,DETA800,Retail,116,2012-08-13
+23336,Petra Mckenzie,Morocco,SUPA102,Retail,7,2012-07-01
+23337,Bell Prince,Guinea,SUPA103,Online,82,2012-07-07
+23338,George Best,Western Sahara,PURA250,Online,178,2012-08-12
+23339,Basil Vang,Moldova,DETA100,Retail,41,2012-07-11
+23340,Lael Gould,El Salvador,SUPA102,Online,85,2012-07-05
+23341,Noel Key,Gambia,PURA100,Online,77,2012-06-27
+23342,Paul Duke,Puerto Rico,PURA200,Online,122,2012-06-28
+23343,Josiah Yates,Bangladesh,SUPA104,Retail,42,2012-08-23
+23344,Winifred Cantu,Kazakhstan,DETA200,Online,64,2012-08-22
+23345,Devin Abbott,France,SUPA105,Online,208,2012-08-29
+23346,Aretha Patton,Bouvet Island,SUPA104,Online,13,2012-07-29
+23347,Nell Maddox,Azerbaijan,DETA800,Online,147,2012-06-28
+23348,Tad Mack,Iceland,SUPA104,Retail,163,2012-08-25
+23349,Amery Frazier,Georgia,DETA200,Retail,126,2012-07-22
+23350,Hiroko Acevedo,Burundi,DETA800,Online,188,2012-06-25
+23351,Nyssa Quinn,Cocos (Keeling) Islands,PURA200,Online,151,2012-08-03
+23352,Iliana Porter,Poland,DETA100,Direct,89,2012-07-07
+23353,Zahir Fields,Canada,SUPA105,Online,168,2012-06-10
+23354,Gwendolyn Mccarty,Madagascar,SUPA103,Retail,84,2012-08-03
+23355,Victoria Solis,Palau,PURA250,Online,16,2012-06-27
+23356,Colette Sargent,Norfolk Island,PURA200,Retail,80,2012-06-21
+23357,Cyrus Whitley,Denmark,DETA100,Direct,50,2012-07-17
+23358,Joel Rivers,Australia,SUPA104,Retail,41,2012-06-11
+23359,Kyra Harding,Cameroon,SUPA101,Online,19,2012-07-11
+23360,Barrett Mckinney,Syrian Arab Republic,SUPA103,Online,37,2012-06-13
+23361,Benedict Byrd,Mauritania,SUPA103,Direct,184,2012-07-07
+23362,Jerry Alvarado,"Korea, Republic of",PURA100,Direct,179,2012-08-18
+23363,Lesley Aguilar,Viet Nam,SUPA101,Retail,190,2012-07-20
+23364,Mercedes Humphrey,Turkey,DETA800,Online,47,2012-07-03
+23365,Gwendolyn Walton,Cuba,SUPA102,Online,165,2012-07-09
+23366,Zia Mcmillan,Denmark,SUPA101,Online,178,2012-06-19
+23367,Roary Dixon,Saudi Arabia,PURA250,Online,10,2012-06-24
+23368,Emerson Beard,Niue,SUPA102,Online,150,2012-08-25
+23369,Ivor Mclaughlin,United States Minor Outlying Islands,PURA500,Online,77,2012-07-02
+23370,Clark Orr,Indonesia,PURA100,Online,63,2012-06-29
+23371,Doris Williams,Trinidad and Tobago,SUPA103,Retail,204,2012-08-15
+23372,Phillip Perkins,Nigeria,PURA500,Online,22,2012-08-12
+23373,Maite Henson,Bangladesh,DETA200,Online,95,2012-07-24
+23374,Ebony Mercer,Cape Verde,PURA200,Retail,57,2012-08-14
+23375,Brittany Burris,Palau,SUPA103,Retail,5,2012-06-30
+23376,Imogene Bradshaw,Niger,SUPA103,Online,85,2012-07-23
+23377,Eleanor Hopper,Madagascar,PURA500,Online,43,2012-06-15
+23378,Brynne Mcgowan,Finland,SUPA105,Retail,157,2012-06-18
+23379,Desirae Perkins,Chile,PURA200,Retail,65,2012-08-27
+23380,Ivory Chang,Tonga,PURA500,Retail,95,2012-07-22
+23381,Gwendolyn David,Cape Verde,SUPA103,Online,159,2012-07-22
+23382,Quintessa Levine,Turkey,DETA100,Direct,14,2012-06-16
+23383,Rosalyn Lopez,Faroe Islands,SUPA103,Online,39,2012-07-18
+23384,Basil Bates,Portugal,PURA200,Retail,9,2012-07-28
+23385,Adrian Alvarez,Monaco,PURA100,Retail,50,2012-06-08
+23386,Brynn Strickland,Falkland Islands (Malvinas),DETA100,Retail,107,2012-08-15
+23387,Ashely Macdonald,Macao,SUPA104,Online,118,2012-06-18
+23388,Michael Hart,Italy,DETA100,Online,39,2012-08-13
+23389,Cynthia Gilliam,Russian Federation,SUPA101,Retail,126,2012-08-02
+23390,Tanner Turner,Yemen,PURA100,Online,176,2012-06-27
+23391,Keefe Cooley,Cayman Islands,DETA100,Retail,111,2012-08-14
+23392,Rooney Wynn,Israel,DETA100,Direct,71,2012-07-03
+23393,Odette Logan,Malaysia,SUPA105,Retail,113,2012-08-23
+23394,Garrett May,Malawi,SUPA105,Retail,105,2012-07-31
+23395,Susan Grimes,Antarctica,DETA200,Online,169,2012-07-27
+23396,Katelyn Adams,Guinea,PURA250,Retail,116,2012-06-29
+23397,Moses Huff,Turkey,SUPA101,Online,208,2012-07-10
+23398,Susan Schultz,Western Sahara,PURA500,Online,45,2012-07-24
+23399,Leah Golden,Norway,SUPA102,Online,193,2012-06-19
+23400,Ina Montgomery,Romania,SUPA101,Online,108,2012-06-05
+23401,Maia Mitchell,Switzerland,SUPA104,Retail,205,2012-07-29
+23402,Macy Romero,Mozambique,DETA800,Online,88,2012-07-28
+23403,Molly Crane,Armenia,SUPA103,Retail,46,2012-06-28
+23404,Cedric Rivera,Albania,SUPA101,Retail,73,2012-08-03
+23405,Hanna Dyer,Martinique,DETA800,Retail,207,2012-08-05
+23406,Linda Morales,Saint Lucia,PURA500,Retail,202,2012-07-22
+23407,Keaton Meyer,Costa Rica,DETA100,Retail,209,2012-06-11
+23408,Fatima Case,Netherlands Antilles,PURA200,Online,48,2012-07-31
+23409,Cyrus Peters,Svalbard and Jan Mayen,DETA800,Online,52,2012-06-22
+23410,Cooper Brooks,Hong Kong,PURA250,Retail,202,2012-06-30
+23411,Reagan Leach,Pakistan,PURA200,Online,138,2012-08-06
+23412,Yuri Mcguire,Saint Pierre and Miquelon,DETA200,Online,77,2012-06-27
+23413,Aaron Edwards,Togo,DETA100,Direct,168,2012-08-24
+23414,Arden Conrad,Holy See (Vatican City State),SUPA105,Retail,114,2012-07-08
+23415,Colleen Huff,Singapore,PURA500,Online,170,2012-08-02
+23416,Isadora Ford,Zambia,SUPA102,Retail,116,2012-08-04
+23417,Heidi Pennington,Zimbabwe,PURA500,Online,100,2012-06-21
+23418,Haviva Burgess,San Marino,DETA800,Retail,191,2012-08-10
+23419,Donovan Noel,Nauru,SUPA101,Online,193,2012-08-27
+23420,Joseph Potts,Anguilla,SUPA102,Retail,57,2012-06-21
+23421,Charles Park,United Kingdom,DETA800,Online,142,2012-08-04
+23422,Leo Osborne,Hungary,PURA500,Online,153,2012-08-28
+23423,Ima Jensen,Iraq,PURA250,Online,29,2012-07-27
+23424,Norman Dale,Spain,PURA100,Online,38,2012-07-28
+23425,Dana Cobb,Norfolk Island,SUPA102,Retail,3,2012-07-28
+23426,Sydney Daniels,Czech Republic,DETA200,Online,178,2012-08-20
+23427,Ivy Wells,Andorra,SUPA105,Online,53,2012-07-25
+23428,Sigourney Bullock,"Korea, Republic of",PURA100,Retail,153,2012-08-14
+23429,Lacota Hinton,"Palestinian Territory, Occupied",SUPA104,Retail,144,2012-06-16
+23430,Ira Pollard,Sierra Leone,DETA100,Retail,131,2012-06-14
+23431,Cynthia Underwood,Argentina,PURA250,Online,7,2012-06-11
+23432,Edward Pope,Saint Vincent and The Grenadines,PURA200,Retail,110,2012-07-24
+23433,Tara Mckinney,Israel,PURA200,Online,209,2012-08-04
+23434,Ryder Riddle,Puerto Rico,SUPA102,Online,203,2012-06-17
+23435,Holmes Graves,Mauritania,PURA200,Direct,29,2012-06-19
+23436,Alika Beach,Tunisia,DETA200,Direct,202,2012-07-25
+23437,Gillian Santiago,French Polynesia,PURA100,Retail,15,2012-06-21
+23438,Kevin Spears,Bouvet Island,SUPA104,Retail,102,2012-08-02
+23439,Venus Finch,Finland,DETA200,Online,211,2012-06-08
+23440,Caleb Tate,Switzerland,DETA200,Online,138,2012-08-08
+23441,Britanni Weeks,United Arab Emirates,SUPA102,Retail,129,2012-06-20
+23442,Timon Kline,Liechtenstein,PURA500,Online,95,2012-08-26
+23443,Raphael Casey,Hungary,PURA100,Online,58,2012-08-11
+23444,Aline Leonard,Saudi Arabia,PURA200,Online,160,2012-06-17
+23445,Macy Stafford,Turkey,SUPA102,Online,163,2012-08-23
+23446,Indigo Bird,Finland,DETA100,Online,33,2012-06-19
+23447,Lewis Lester,Andorra,SUPA103,Retail,147,2012-06-01
+23448,Garrett Aguirre,Samoa,SUPA103,Retail,211,2012-08-20
+23449,Lars Lindsay,Madagascar,DETA200,Direct,49,2012-06-17
+23450,Lewis Hall,Denmark,SUPA101,Retail,100,2012-07-16
+23451,Caesar Mcgowan,Albania,SUPA102,Direct,123,2012-06-27
+23452,Simon Carlson,Uzbekistan,PURA250,Online,176,2012-06-01
+23453,Yvonne Mcintosh,Ireland,DETA200,Retail,44,2012-08-11
+23454,Dahlia James,Grenada,DETA200,Online,179,2012-08-07
+23455,Abraham Mcguire,Japan,PURA200,Online,62,2012-06-09
+23456,Urielle Michael,Saint Vincent and The Grenadines,PURA100,Online,33,2012-06-07
+23457,Ivan Knight,Saint Kitts and Nevis,DETA100,Online,21,2012-07-07
+23458,Dominique Oneill,Qatar,SUPA101,Online,69,2012-07-09
+23459,Jordan Gordon,Sri Lanka,PURA200,Retail,121,2012-07-17
+23460,Fuller Hamilton,Egypt,SUPA102,Retail,112,2012-08-24
+23461,Colin Hendricks,Thailand,DETA100,Retail,42,2012-06-22
+23462,Skyler Carson,Niue,SUPA105,Online,60,2012-04-28
+23463,Blaine Terry,Nauru,PURA500,Online,202,2012-05-25
+23464,Zorita Hodge,Bermuda,SUPA105,Retail,181,2012-04-09
+23465,Amanda Stanley,Saint Kitts and Nevis,DETA100,Retail,28,2012-04-18
+23466,Leila Hatfield,Mauritania,DETA800,Online,79,2012-05-06
+23467,Alika Espinoza,Djibouti,DETA800,Online,10,2012-05-06
+23468,Maxwell Hoffman,Japan,SUPA105,Online,41,2012-05-15
+23469,Minerva Mcguire,Korea,PURA250,Online,5,2012-04-08
+23470,Herrod Byers,Jordan,PURA200,Direct,129,2012-05-06
+23471,Yetta Weaver,Comoros,PURA100,Online,210,2012-04-05
+23472,Zia Ayala,Bosnia and Herzegovina,SUPA104,Online,209,2012-05-28
+23473,Evan Russell,United Arab Emirates,DETA200,Direct,55,2012-04-03
+23474,Camilla Simmons,Faroe Islands,DETA200,Retail,49,2012-04-03
+23475,Cadman Wilkinson,Antigua and Barbuda,SUPA102,Online,16,2012-05-15
+23476,Brielle Love,Turks and Caicos Islands,SUPA103,Online,29,2012-04-21
+23477,Lani Floyd,Bolivia,SUPA104,Retail,164,2012-05-13
+23478,Keelie Johns,Gabon,SUPA102,Online,173,2012-04-29
+23479,Quinn Frederick,Bosnia and Herzegovina,PURA200,Retail,119,2012-04-27
+23480,Ralph Ayala,Argentina,PURA100,Online,111,2012-05-11
+23481,Gray Ortega,Sri Lanka,SUPA103,Online,20,2012-05-09
+23482,Jameson Hunter,Botswana,PURA250,Online,197,2012-04-06
+23483,Boris Maynard,Nepal,SUPA101,Retail,122,2012-05-22
+23484,Vaughan Bender,Antigua and Barbuda,SUPA102,Online,51,2012-05-26
+23485,Ebony Kirk,Somalia,SUPA105,Retail,38,2012-05-07
+23486,Rajah Castillo,Denmark,SUPA105,Retail,206,2012-05-19
+23487,Althea Sharpe,Kuwait,DETA200,Retail,143,2012-05-26
+23488,Geoffrey Browning,Sri Lanka,SUPA102,Retail,134,2012-04-11
+23489,Nichole Vinson,Korea,SUPA105,Retail,101,2012-04-25
+23490,Dustin Meyer,Moldova,SUPA102,Online,173,2012-04-13
+23491,Oscar Clay,Saint Helena,SUPA103,Retail,87,2012-04-29
+23492,Alisa Kemp,Antarctica,PURA100,Retail,6,2012-05-03
+23493,Mohammad Mills,Comoros,SUPA101,Online,176,2012-05-08
+23494,Kay Dixon,Georgia,PURA250,Online,77,2012-04-05
+23495,Chava Hunt,Yemen,SUPA101,Retail,192,2012-05-16
+23496,Herrod Huff,Burundi,SUPA103,Online,143,2012-04-06
+23497,Caryn Rhodes,Brunei Darussalam,DETA100,Retail,126,2012-05-10
+23498,Madeson Baker,Armenia,SUPA105,Retail,178,2012-05-28
+23499,Eve Perry,Mozambique,PURA100,Online,116,2012-05-19
+23500,Kimberley Daniel,Micronesia,SUPA105,Retail,8,2012-05-12
+23501,Louis Hubbard,Saint Lucia,PURA100,Online,204,2012-05-16
+23502,Doris Castillo,Chile,PURA100,Online,123,2012-05-12
+23503,Ina Faulkner,Anguilla,PURA100,Online,111,2012-04-10
+23504,Lysandra Erickson,"Palestinian Territory, Occupied",PURA500,Online,88,2012-05-17
+23505,Tarik Barber,Paraguay,SUPA104,Retail,189,2012-04-30
+23506,Kieran Mckinney,Cape Verde,SUPA102,Retail,83,2012-04-12
+23507,Martena Hunt,Ireland,SUPA103,Retail,211,2012-05-28
+23508,Vera Turner,Morocco,PURA100,Retail,34,2012-04-17
+23509,Briar Clayton,Nepal,SUPA105,Retail,195,2012-04-17
+23510,Sophia Chaney,Spain,DETA800,Retail,127,2012-05-25
+23511,Kirestin Huber,Sao Tome and Principe,DETA100,Retail,158,2012-05-09
+23512,Slade Russell,Turkey,PURA100,Online,154,2012-05-01
+23513,Baker Johnson,Chad,PURA500,Retail,78,2012-05-16
+23514,Patience Alford,Central African Republic,DETA800,Online,130,2012-04-19
+23515,Patience Grant,Belize,SUPA102,Retail,191,2012-04-21
+23516,Denton Mcintosh,Turkey,SUPA105,Online,4,2012-05-29
+23517,Florence Hutchinson,Guyana,PURA100,Online,144,2012-05-17
+23518,Ginger Boyd,Estonia,SUPA103,Online,2,2012-05-02
+23519,Lev Hubbard,Kuwait,DETA800,Retail,20,2012-04-09
+23520,Alea Long,Chile,PURA200,Online,133,2012-04-29
+23521,Nichole Obrien,Barbados,DETA100,Retail,188,2012-04-18
+23522,Nissim Bruce,Ireland,SUPA102,Online,105,2012-05-13
+23523,Rina Baird,Central African Republic,DETA200,Retail,181,2012-04-13
+23524,Haley Tucker,Vanuatu,PURA250,Retail,115,2012-05-22
+23525,Sara Beck,Mayotte,PURA500,Online,167,2012-05-07
+23526,Jason Hoffman,Peru,SUPA103,Online,44,2012-05-27
+23527,Brielle Gonzalez,El Salvador,SUPA104,Online,124,2012-05-12
+23528,Serena Buckner,Algeria,PURA200,Retail,41,2012-04-20
+23529,Autumn Hobbs,Malta,SUPA104,Retail,160,2012-05-24
+23530,Maia Warner,"Taiwan, Province of China",PURA500,Online,160,2012-05-30
+23531,Danielle Hardy,Chad,PURA100,Direct,7,2012-04-08
+23532,Lysandra Hunter,"Virgin Islands, U.S.",SUPA105,Retail,151,2012-04-14
+23533,Serina Moody,Bermuda,SUPA103,Online,155,2012-04-20
+23534,Cally Gibbs,Christmas Island,DETA100,Retail,4,2012-04-24
+23535,Mia Ferguson,Norfolk Island,SUPA104,Retail,159,2012-05-20
+23536,Francesca Bolton,Belarus,SUPA102,Direct,86,2012-04-21
+23537,Nola Wilkerson,Panama,DETA800,Direct,73,2012-04-10
+23538,Harper Willis,Iraq,DETA100,Retail,13,2012-05-01
+23539,Gemma Rodriguez,Antarctica,PURA250,Online,172,2012-04-29
+23540,Gwendolyn Daniel,Serbia and Montenegro,DETA800,Online,7,2012-05-16
+23541,Mason Garner,Somalia,PURA200,Online,127,2012-05-10
+23542,Kendall Harmon,South Africa,SUPA102,Online,123,2012-04-24
+23543,Celeste Ochoa,Tunisia,SUPA101,Online,137,2012-05-06
+23544,Sybil Moses,Antarctica,DETA800,Online,58,2012-05-17
+23545,Venus Boyd,Uruguay,DETA800,Online,134,2012-05-30
+23546,Zorita Petty,Ethiopia,PURA500,Retail,109,2012-05-02
+23547,Lana Norris,Myanmar,PURA100,Online,28,2012-05-29
+23548,Breanna Pacheco,Sweden,PURA500,Retail,6,2012-04-01
+23549,Levi Sykes,Philippines,DETA800,Online,184,2012-05-26
+23550,Alea Sawyer,Mauritius,SUPA103,Online,128,2012-04-20
+23551,Graiden Avery,Liberia,SUPA102,Retail,17,2012-04-12
+23552,Bruno Miles,Trinidad and Tobago,PURA250,Retail,162,2012-04-19
+23553,Britanni Hebert,Serbia and Montenegro,PURA200,Online,90,2012-04-16
+23554,Bruno Drake,Aruba,DETA100,Online,204,2012-05-22
+23555,Curran Shannon,Guinea,DETA200,Retail,117,2012-05-27
+23556,Guinevere Simpson,Slovakia,PURA250,Retail,121,2012-05-28
+23557,Amir Solomon,Hungary,SUPA104,Retail,45,2012-05-28
+23558,Rogan Garner,Austria,SUPA104,Online,164,2012-05-15
+23559,Jesse Austin,New Caledonia,SUPA103,Retail,76,2012-04-09
+23560,Doris Mccormick,Panama,SUPA101,Direct,212,2012-05-02
+23561,Cade Alvarado,Angola,SUPA104,Online,91,2012-05-02
+23562,Hollee Lowe,American Samoa,PURA100,Online,198,2012-04-26
+23563,Morgan Talley,United States,PURA100,Online,202,2012-04-24
+23564,Harrison Barker,Liberia,PURA100,Retail,136,2012-04-21
+23565,Odette Norton,Malaysia,DETA800,Online,70,2012-05-08
+23566,Lois Compton,Guatemala,PURA500,Online,95,2012-05-21
+23567,Karina Buckley,Bouvet Island,SUPA103,Direct,150,2012-04-11
+23568,Harding Larson,Tonga,SUPA104,Retail,146,2012-04-21
+23569,Donna Jacobson,Singapore,PURA200,Retail,9,2012-04-14
+23570,Kiara Lucas,Mauritius,PURA100,Retail,68,2012-04-05
+23571,Lois Abbott,Serbia and Montenegro,SUPA104,Retail,71,2012-05-14
+23572,Acton Mendoza,Timor-leste,DETA200,Retail,72,2012-05-04
+23573,Nora Carroll,Gibraltar,SUPA102,Retail,67,2012-05-09
+23574,Griffin Gray,United Arab Emirates,PURA200,Online,33,2012-05-14
+23575,Armand Shaffer,French Guiana,DETA800,Online,29,2012-05-07
+23576,Nicole Heath,Liberia,PURA250,Retail,199,2012-05-21
+23577,Harper Zimmerman,San Marino,SUPA101,Retail,62,2012-04-06
+23578,Sigourney Riddle,Paraguay,SUPA101,Retail,119,2012-05-10
+23579,Marcia Everett,Mauritania,PURA200,Direct,50,2012-04-04
+23580,Eric Avila,Afghanistan,DETA800,Online,1,2012-05-16
+23581,William Hale,Ethiopia,PURA200,Online,75,2012-05-12
+23582,Griffin Grimes,Guyana,PURA100,Direct,146,2012-05-12
+23583,Galena Sexton,Azerbaijan,DETA100,Online,55,2012-05-05
+23584,Brittany Fletcher,Netherlands Antilles,SUPA102,Retail,11,2012-04-24
+23585,Roanna Gibson,Timor-leste,DETA100,Retail,164,2012-05-15
+23586,Emily Foreman,Azerbaijan,DETA100,Retail,175,2012-05-08
+23587,Sandra Clay,Cape Verde,SUPA104,Retail,102,2012-04-06
+23588,Lois Weber,Senegal,PURA250,Retail,59,2012-05-15
+23589,Cleo Acosta,Kazakhstan,DETA800,Online,111,2012-04-17
+23590,Charles Boyle,Kuwait,SUPA104,Retail,148,2012-05-12
+23591,Hermione Foreman,Philippines,DETA200,Retail,44,2012-04-17
+23592,Zane Hopkins,Finland,PURA250,Online,4,2012-04-11
+23593,Cassady Perkins,Gambia,PURA500,Online,202,2012-04-03
+23594,Drake Williamson,Honduras,SUPA104,Retail,60,2012-04-10
+23595,Rachel Shelton,Zimbabwe,DETA100,Direct,211,2012-04-13
+23596,Sopoline Pace,Viet Nam,PURA200,Online,111,2012-04-28
+23597,Aurora Dyer,Guam,PURA250,Retail,175,2012-04-13
+23598,Brock Howell,Macedonia,SUPA103,Online,190,2012-04-12
+23599,Kelsie Joseph,Canada,PURA500,Online,41,2012-05-01
+23600,Daria Mcneil,Niger,SUPA105,Retail,28,2012-04-15
+23601,Keith Velez,Nauru,SUPA105,Retail,44,2012-05-19
+23602,Wendy Hull,Somalia,PURA500,Retail,107,2012-05-23
+23603,Ursa Charles,Israel,DETA200,Retail,9,2012-04-18
+23604,Alec Valentine,Libyan Arab Jamahiriya,DETA800,Online,26,2012-05-26
+23605,Noble Diaz,Faroe Islands,SUPA101,Retail,79,2012-05-07
+23606,Emily Hogan,Faroe Islands,SUPA105,Online,17,2012-04-19
+23607,Lunea Morales,Gabon,DETA800,Retail,121,2012-05-21
+23608,Ainsley Chan,Zimbabwe,SUPA101,Online,116,2012-04-13
+23609,Charlotte Mcdonald,China,PURA250,Retail,131,2012-05-01
+23610,Thane Hood,Saudi Arabia,SUPA103,Online,144,2012-04-25
+23611,Curran Kane,Eritrea,PURA200,Online,102,2012-05-28
+23612,Tana Yang,Turks and Caicos Islands,DETA200,Online,212,2012-05-02
+23613,Zeus Barr,Lebanon,SUPA101,Online,191,2012-05-23
+23614,Shay Larson,Tokelau,PURA100,Online,172,2012-04-02
+23615,Mannix Le,Swaziland,PURA250,Retail,27,2012-05-05
+23616,Grant Gilbert,Nigeria,SUPA104,Online,36,2012-04-30
+23617,Noelle Rasmussen,Paraguay,SUPA104,Retail,191,2012-04-05
+23618,Lucy Watson,Djibouti,DETA200,Online,103,2012-04-22
+23619,Flynn Robinson,Denmark,SUPA104,Retail,61,2012-04-01
+23620,Bradley Fowler,Denmark,PURA200,Direct,197,2012-04-19
+23621,Indigo Mullins,Poland,PURA500,Retail,34,2012-05-06
+23622,Fulton Francis,Kiribati,SUPA102,Online,37,2012-05-06
+23623,Joel Gallegos,South Georgia and The South Sandwich Islands,PURA200,Retail,181,2012-04-04
+23624,Briar Kennedy,Canada,SUPA103,Direct,1,2012-05-10
+23625,Ella Saunders,Georgia,DETA100,Retail,74,2012-04-21
+23626,Robert Snow,Suriname,SUPA104,Online,17,2012-04-08
+23627,Armando Pruitt,Tonga,PURA100,Online,141,2012-04-06
+23628,Erich Little,Macedonia,PURA500,Retail,169,2012-05-07
+23629,Serina Hall,Mali,SUPA104,Retail,79,2012-05-15
+23630,Hunter Kirkland,Tunisia,PURA200,Online,55,2012-05-14
+23631,Amos Galloway,New Zealand,DETA100,Online,65,2012-04-02
+23632,Sophia Palmer,Solomon Islands,PURA100,Online,75,2012-04-20
+23633,Azalia Ramos,Palau,SUPA103,Online,58,2012-05-11
+23634,Hedley Lott,"Virgin Islands, British",SUPA102,Online,60,2012-04-23
+23635,Amela Fowler,Anguilla,SUPA101,Retail,115,2012-05-13
+23636,Carol Mckenzie,Belarus,PURA100,Online,108,2012-04-30
+23637,Penelope Baker,Solomon Islands,SUPA101,Online,63,2012-05-11
+23638,Dakota Chen,Tonga,DETA200,Online,98,2012-04-28
+23639,Ifeoma Carroll,Lesotho,DETA800,Online,119,2012-05-22
+23640,Hyacinth Saunders,Reunion,DETA100,Online,90,2012-05-11
+23641,Brenden Russo,Mexico,DETA800,Online,11,2012-05-18
+23642,Hilda Noble,Tajikistan,PURA250,Online,152,2012-05-02
+23643,Naida Wilkerson,Macedonia,PURA100,Direct,11,2012-04-19
+23644,Sandra Whitfield,Puerto Rico,PURA100,Retail,158,2012-04-14
+23645,Lucius James,Portugal,SUPA104,Retail,1,2012-05-24
+23646,Charles Hewitt,Venezuela,DETA100,Online,131,2012-05-09
+23647,Walker Sweeney,Belgium,PURA200,Direct,148,2012-04-30
+23648,Bree Hammond,Bosnia and Herzegovina,SUPA104,Online,153,2012-05-11
+23649,Tyler Gordon,Namibia,SUPA103,Online,125,2012-04-23
+23650,Ursa Strickland,Venezuela,SUPA101,Retail,162,2012-04-23
+23651,Jolene Rodriquez,Botswana,DETA200,Online,108,2012-04-26
+23652,Amela Summers,Holy See (Vatican City State),SUPA101,Retail,191,2012-04-02
+23653,Kaye Rocha,Panama,PURA250,Online,165,2012-05-17
+23654,Brian Clarke,Northern Mariana Islands,PURA100,Online,128,2012-04-11
+23655,Dawn Carey,Holy See (Vatican City State),PURA200,Online,146,2012-05-23
+23656,Audrey Chase,Switzerland,SUPA105,Online,206,2012-05-18
+23657,Aimee James,Bosnia and Herzegovina,PURA250,Online,196,2012-04-02
+23658,Raymond Noel,Belize,SUPA102,Online,88,2012-05-15
+23659,Judah Erickson,Timor-leste,PURA500,Online,209,2012-04-06
+23660,Quemby Romero,Northern Mariana Islands,PURA500,Online,189,2012-05-08
+23661,Shaine Lambert,Rwanda,PURA100,Direct,77,2012-03-24
+23662,Deirdre Ford,Benin,SUPA104,Retail,163,2012-01-24
+23663,Maris Shepherd,Falkland Islands (Malvinas),PURA100,Retail,99,2012-03-18
+23664,Sybil Barker,Samoa,SUPA101,Online,180,2012-01-17
+23665,Breanna Sweeney,Panama,SUPA101,Retail,106,2012-03-08
+23666,Blair Horne,Maldives,SUPA105,Retail,165,2012-02-25
+23667,Evelyn Cherry,Norway,PURA100,Retail,12,2012-03-23
+23668,Jermaine Mcneil,Libyan Arab Jamahiriya,PURA200,Online,37,2012-01-03
+23669,Melissa Roberts,Greenland,PURA200,Online,28,2012-03-26
+23670,Davis Kennedy,Rwanda,PURA500,Online,18,2012-02-19
+23671,Hadassah Hodge,Syrian Arab Republic,SUPA104,Retail,99,2012-03-18
+23672,Callie Cervantes,Vanuatu,SUPA102,Online,132,2012-01-10
+23673,Ifeoma Crane,Aruba,PURA100,Retail,95,2012-02-08
+23674,Dara Burch,Namibia,SUPA102,Online,120,2012-03-06
+23675,Brielle Mcdaniel,Sao Tome and Principe,SUPA105,Online,36,2012-02-20
+23676,Ralph Carroll,Falkland Islands (Malvinas),PURA200,Retail,86,2012-01-18
+23677,Destiny Fisher,Zambia,PURA250,Retail,149,2012-01-08
+23678,Georgia Good,Swaziland,PURA250,Online,7,2012-01-14
+23679,Winter Mcclain,Gambia,DETA200,Online,9,2012-02-29
+23680,Yael Stafford,Honduras,DETA100,Retail,151,2012-03-18
+23681,Bruno Durham,Fiji,SUPA101,Direct,24,2012-02-17
+23682,Yuri Rice,"Virgin Islands, U.S.",PURA100,Online,200,2012-01-16
+23683,Harding Blackwell,Comoros,PURA250,Retail,160,2012-01-11
+23684,Kieran Charles,Macao,PURA500,Online,103,2012-03-29
+23685,Jennifer Harrington,Mauritania,SUPA101,Retail,61,2012-01-31
+23686,Darrel Jones,Kazakhstan,DETA200,Online,84,2012-03-30
+23687,Leroy Valdez,Serbia and Montenegro,SUPA103,Online,197,2012-01-27
+23688,Jessamine Watkins,Iceland,DETA800,Online,161,2012-02-09
+23689,Phillip Schneider,Oman,SUPA102,Retail,181,2012-02-20
+23690,Rooney Wolfe,Singapore,SUPA105,Online,91,2012-01-26
+23691,Brenna Villarreal,Ecuador,DETA100,Online,52,2012-03-07
+23692,Yuri Huber,Cyprus,PURA100,Retail,207,2012-01-19
+23693,Yvonne Shepard,Trinidad and Tobago,PURA100,Online,132,2012-01-15
+23694,Sybill Rivers,Bahrain,SUPA102,Retail,25,2012-02-13
+23695,Acton Ratliff,Uzbekistan,PURA100,Retail,152,2012-01-24
+23696,Blaine Soto,Lesotho,DETA100,Online,187,2012-01-16
+23697,Joelle Kidd,New Zealand,PURA250,Retail,84,2012-01-19
+23698,Uta Rodgers,Egypt,SUPA105,Retail,86,2012-02-25
+23699,Graham Paul,Trinidad and Tobago,SUPA102,Online,183,2012-01-11
+23700,Jorden Mcneil,Nigeria,DETA200,Retail,121,2012-02-06
+23701,Pamela Paul,Falkland Islands (Malvinas),PURA200,Direct,165,2012-02-15
+23702,Yvonne Mcguire,Heard Island and Mcdonald Islands,PURA200,Direct,27,2012-02-06
+23703,Mason Shields,Sudan,DETA100,Retail,205,2012-03-20
+23704,Shelly Johnston,Mauritius,SUPA101,Retail,22,2012-03-22
+23705,Jameson Sawyer,United States Minor Outlying Islands,PURA250,Retail,155,2012-02-12
+23706,Keegan Beasley,Congo,DETA800,Retail,197,2012-02-03
+23707,Georgia Ford,Saint Lucia,SUPA102,Online,202,2012-01-14
+23708,Kevin Dejesus,Algeria,SUPA102,Online,126,2012-02-08
+23709,Ina Chang,Tokelau,SUPA105,Online,164,2012-03-06
+23710,Alexa Byrd,Albania,PURA250,Retail,9,2012-02-28
+23711,Vance Middleton,Comoros,SUPA101,Direct,42,2012-01-13
+23712,Barrett Tyler,Georgia,DETA800,Online,9,2012-02-21
+23713,Gail Calderon,Oman,DETA200,Direct,141,2012-03-03
+23714,Shea Valenzuela,Micronesia,SUPA104,Online,184,2012-02-25
+23715,Ignacia Cantu,Zimbabwe,SUPA102,Retail,119,2012-03-05
+23716,Xanthus Holden,Kuwait,SUPA102,Online,49,2012-02-20
+23717,Hayden Fulton,Guinea-bissau,SUPA104,Online,93,2012-01-29
+23718,Shana Rich,"Taiwan, Province of China",SUPA102,Retail,187,2012-01-21
+23719,Hall Callahan,Colombia,SUPA105,Retail,183,2012-03-17
+23720,Akeem Madden,Netherlands Antilles,PURA100,Direct,58,2012-03-21
+23721,Montana Vincent,Iceland,PURA250,Retail,194,2012-02-21
+23722,Yoshi Ruiz,"Korea, Republic of",DETA800,Direct,211,2012-02-11
+23723,Mallory Gregory,Tuvalu,DETA800,Direct,11,2012-03-05
+23724,Stella Strickland,Swaziland,PURA500,Online,33,2012-02-25
+23725,Callie Stanley,Macao,PURA250,Retail,36,2012-02-08
+23726,Amity Hudson,Aruba,PURA250,Retail,141,2012-02-23
+23727,McKenzie Kirkland,Malaysia,PURA100,Online,111,2012-03-18
+23728,Sheila Atkinson,"Virgin Islands, British",PURA100,Online,171,2012-02-26
+23729,Beatrice Malone,French Southern Territories,SUPA105,Retail,16,2012-02-02
+23730,Savannah Meyer,Benin,PURA200,Online,144,2012-01-22
+23731,Aurelia Jennings,Denmark,PURA100,Retail,104,2012-01-08
+23732,Kyra Osborn,Bosnia and Herzegovina,PURA200,Retail,196,2012-02-22
+23733,Kaitlin Downs,Hong Kong,DETA200,Online,14,2012-02-20
+23734,Kirk Greer,Saint Pierre and Miquelon,DETA100,Retail,87,2012-01-03
+23735,Gemma Bradford,Northern Mariana Islands,PURA500,Retail,66,2012-02-24
+23736,Cedric Larsen,Pakistan,DETA200,Retail,154,2012-01-17
+23737,Carly Cameron,Somalia,DETA200,Online,16,2012-01-30
+23738,Burke Frank,Morocco,SUPA105,Online,89,2012-02-03
+23739,Portia Stewart,Mauritania,SUPA103,Online,150,2012-03-23
+23740,Macey Bridges,American Samoa,DETA800,Online,76,2012-01-26
+23741,Erich Brewer,Czech Republic,PURA100,Online,178,2012-02-07
+23742,Britanney Knapp,United Kingdom,SUPA104,Retail,193,2012-01-30
+23743,August Chaney,Albania,SUPA103,Online,174,2012-03-07
+23744,Myra Payne,Germany,DETA800,Online,127,2012-02-08
+23745,Clayton Cain,Saint Vincent and The Grenadines,DETA800,Retail,180,2012-03-19
+23746,Dakota Conner,Mauritius,PURA200,Online,10,2012-02-10
+23747,Nichole Lee,Chad,DETA100,Online,97,2012-01-17
+23748,Jaime Reilly,Niue,SUPA103,Online,23,2012-02-10
+23749,Britanni Brown,New Zealand,PURA250,Retail,139,2012-03-26
+23750,Lucy Dawson,Indonesia,SUPA103,Online,75,2012-02-12
+23751,Hamilton Willis,Kiribati,SUPA102,Online,166,2012-02-22
+23752,Celeste Church,Albania,PURA100,Retail,115,2012-01-08
+23753,Drake Floyd,Macedonia,DETA100,Retail,206,2012-02-13
+23754,Hermione Rogers,Burundi,PURA250,Online,66,2012-03-23
+23755,Ruth Stein,Myanmar,DETA200,Online,65,2012-01-07
+23756,Kaseem Adkins,Belize,SUPA105,Online,92,2012-01-05
+23757,Minerva Reynolds,French Guiana,PURA100,Retail,185,2012-02-17
+23758,Reed Howe,"Tanzania, United Republic of",DETA200,Online,205,2012-02-29
+23759,Raya Guthrie,Qatar,PURA250,Online,82,2012-01-20
+23760,Idola Underwood,Sri Lanka,SUPA101,Online,69,2012-03-15
+23761,Velma Sanford,Paraguay,PURA250,Retail,198,2012-02-18
+23762,Hayes Carter,Svalbard and Jan Mayen,SUPA103,Retail,105,2012-02-26
+23763,Hope Stevenson,French Polynesia,DETA800,Online,7,2012-03-11
+23764,Hadley Wheeler,China,DETA200,Direct,122,2012-02-14
+23765,Lunea Fuentes,Kazakhstan,PURA100,Online,29,2012-03-17
+23766,Lani Fox,Benin,SUPA101,Direct,75,2012-02-27
+23767,Daryl Riddle,Pakistan,PURA250,Retail,83,2012-02-01
+23768,Hadassah Christian,Paraguay,SUPA102,Online,168,2012-01-05
+23769,Cathleen Espinoza,Mauritania,PURA500,Retail,153,2012-03-10
+23770,Paloma Vega,Tokelau,PURA500,Retail,109,2012-02-03
+23771,Melinda Klein,Senegal,SUPA102,Retail,57,2012-02-29
+23772,Griffin Estrada,Christmas Island,DETA800,Online,119,2012-01-17
+23773,Claire Byrd,Azerbaijan,DETA200,Online,87,2012-02-29
+23774,Bert Grant,Panama,PURA100,Retail,170,2012-03-07
+23775,Guinevere Rosales,Uganda,SUPA103,Online,91,2012-01-05
+23776,Ruth Mathis,Serbia and Montenegro,DETA100,Online,124,2012-03-04
+23777,Quail Kerr,Haiti,DETA200,Retail,163,2012-02-20
+23778,Upton Lewis,Gibraltar,DETA100,Online,81,2012-01-29
+23779,Rafael Fletcher,"Tanzania, United Republic of",SUPA103,Online,124,2012-03-07
+23780,Alyssa Hodges,Botswana,DETA800,Online,40,2012-03-17
+23781,Buffy Heath,Kyrgyzstan,PURA500,Retail,198,2012-03-06
+23782,Sarah Castaneda,Guam,DETA800,Online,170,2012-03-19
+23783,Alice Lara,Congo,PURA100,Retail,127,2012-01-08
+23784,Pascale Sanchez,Saint Lucia,PURA500,Online,86,2012-02-26
+23785,Emma Waller,Uganda,PURA100,Online,109,2012-02-01
+23786,Yen Graves,Georgia,PURA500,Retail,194,2012-01-08
+23787,Selma Coffey,Swaziland,PURA500,Online,29,2012-02-16
+23788,Aurora Daniel,Liberia,DETA800,Online,60,2012-03-04
+23789,Gray Moss,Korea,SUPA101,Online,47,2012-01-28
+23790,Sylvia Fry,Jamaica,SUPA104,Retail,114,2012-02-05
+23791,Aileen Hunter,Christmas Island,SUPA103,Online,33,2012-02-05
+23792,Vincent Bauer,"Korea, Republic of",PURA500,Retail,31,2012-02-03
+23793,Hannah Snider,Myanmar,DETA200,Online,12,2012-03-29
+23794,Jonah Guy,Bhutan,DETA800,Online,50,2012-03-25
+23795,Ori Sparks,Belgium,PURA200,Retail,115,2012-02-02
+23796,Akeem Snider,Turkey,DETA100,Retail,64,2012-01-25
+23797,Lael Serrano,Cape Verde,PURA500,Retail,126,2012-03-21
+23798,Blythe Simpson,Jordan,SUPA105,Online,177,2012-02-28
+23799,Yuli Jacobson,Oman,SUPA103,Online,64,2012-02-28
+23800,Peter Goodwin,Burundi,SUPA101,Retail,44,2012-01-29
+23801,Deirdre Mccullough,Pakistan,SUPA104,Online,194,2012-02-12
+23802,Bruce French,Eritrea,SUPA103,Retail,49,2012-02-09
+23803,Mara Garcia,Somalia,SUPA105,Retail,209,2012-01-19
+23804,Nasim Galloway,Finland,DETA100,Online,105,2012-03-27
+23805,Callum Contreras,South Africa,SUPA101,Retail,130,2012-01-18
+23806,Vernon Coleman,United Kingdom,DETA800,Online,48,2012-03-05
+23807,Oliver Bullock,Iraq,SUPA105,Online,160,2012-03-16
+23808,Nita Andrews,United Kingdom,SUPA105,Retail,179,2012-01-14
+23809,Lucius Barton,Uzbekistan,SUPA103,Retail,180,2012-01-24
+23810,Josephine Oliver,Syrian Arab Republic,SUPA105,Retail,171,2012-03-27
+23811,Aquila Dejesus,Swaziland,DETA200,Direct,107,2012-02-15
+23812,Elvis Watkins,China,SUPA103,Online,189,2012-02-26
+23813,Vielka Leon,Bouvet Island,PURA100,Online,161,2012-01-25
+23814,Teagan Baird,Pitcairn,SUPA105,Online,150,2012-03-16
+23815,Rashad Clay,Denmark,SUPA103,Retail,85,2012-02-06
+23816,Wanda Guy,Ireland,SUPA104,Retail,85,2012-03-23
+23817,Michael Guthrie,Moldova,SUPA102,Online,58,2012-02-28
+23818,Brennan Mcclain,Nigeria,PURA100,Direct,93,2012-01-12
+23819,Rama Gonzales,Slovenia,DETA200,Online,154,2012-01-03
+23820,Nicholas Singleton,French Polynesia,PURA250,Retail,194,2012-03-29
+23821,Thaddeus Vinson,El Salvador,SUPA103,Direct,40,2012-01-12
+23822,Demetrius Watson,Antigua and Barbuda,PURA100,Online,193,2012-02-11
+23823,Rajah Poole,Suriname,DETA800,Online,79,2012-03-12
+23824,Meghan Jacobs,Gambia,DETA200,Retail,118,2012-01-25
+23825,Reece Hodge,Faroe Islands,PURA500,Online,182,2012-01-08
+23826,Laith Charles,Germany,PURA250,Retail,199,2012-03-04
+23827,Camden Rosa,Guatemala,SUPA104,Retail,83,2012-01-13
+23828,Marah Ashley,Martinique,SUPA101,Retail,115,2012-03-25
+23829,Aphrodite Barrera,Ghana,DETA100,Online,137,2012-02-16
+23830,Haley Collins,Oman,SUPA101,Retail,37,2012-01-21
+23831,Shaeleigh Kennedy,Costa Rica,DETA100,Online,140,2012-02-20
+23832,Nita Monroe,Swaziland,PURA250,Online,49,2012-01-02
+23833,Hilary Schultz,Qatar,SUPA103,Online,74,2012-03-19
+23834,Hope Mcbride,"Virgin Islands, U.S.",SUPA102,Direct,23,2012-02-24
+23835,Quinlan Jensen,Ukraine,SUPA101,Online,116,2012-03-21
+23836,Hamish Crawford,Bouvet Island,SUPA105,Online,190,2012-03-25
+23837,Lamar Rodriquez,Guinea-bissau,SUPA103,Online,151,2012-02-19
+23838,Karina Riddle,Tuvalu,SUPA102,Online,133,2012-03-17
+23839,Hedwig Harvey,Indonesia,SUPA101,Direct,182,2012-01-23
+23840,Noelle Buckley,Netherlands Antilles,SUPA103,Online,203,2012-02-01
+23841,Harriet Banks,Grenada,PURA200,Retail,170,2012-01-01
+23842,Timothy Sharpe,Turkmenistan,DETA100,Online,190,2012-02-10
+23843,Burke Rojas,Ukraine,SUPA103,Retail,211,2012-01-07
+23844,Fallon Miles,Spain,DETA100,Online,179,2012-02-03
+23845,Cameron Schmidt,New Caledonia,SUPA102,Direct,142,2012-01-06
+23846,Indira Collier,Fiji,PURA100,Retail,19,2012-03-08
+23847,Mannix Petersen,Turkey,DETA200,Direct,108,2012-01-23
+23848,Harlan Baxter,Peru,SUPA104,Retail,62,2012-01-27
+23849,Kasimir Navarro,American Samoa,DETA100,Online,50,2012-02-29
+23850,Armand Farley,Faroe Islands,DETA800,Retail,156,2012-03-26
+23851,Eve Bentley,Hong Kong,PURA250,Online,171,2012-02-17
+23852,Ifeoma Oneill,Belarus,DETA200,Retail,164,2012-01-09
+23853,Curran Watson,Sri Lanka,DETA800,Online,34,2012-03-02
+23854,Hector Mcfadden,Svalbard and Jan Mayen,PURA100,Retail,189,2012-01-27
+23855,Madaline Briggs,Suriname,PURA100,Online,145,2012-01-18
+23856,Vivian Garrett,Estonia,SUPA104,Retail,92,2012-01-16
+23857,Shelby Hendrix,Maldives,PURA100,Retail,45,2012-01-01
+23858,Katelyn Merrill,Mali,DETA800,Online,81,2012-01-31
+23859,Kelly Andrews,Seychelles,PURA500,Retail,185,2012-02-06
+23860,Palmer Craft,Liberia,SUPA102,Online,161,2012-02-01
+23861,Amy James,Rwanda,DETA100,Retail,12,2011-12-15
+23862,Chastity Reynolds,Nauru,SUPA104,Online,25,2011-11-14
+23863,Sara Parrish,Mongolia,PURA100,Online,184,2011-12-18
+23864,Keaton Carr,Netherlands Antilles,DETA200,Direct,9,2011-09-13
+23865,Ann Carney,Saint Helena,DETA200,Retail,37,2011-12-08
+23866,Tatyana Ingram,Gabon,PURA200,Online,69,2011-10-02
+23867,Elaine Le,"Korea, Republic of",SUPA102,Retail,132,2011-11-06
+23868,Azalia Riddle,Belgium,SUPA102,Retail,141,2011-09-07
+23869,Cameran Morrison,Christmas Island,DETA800,Online,44,2011-12-16
+23870,Forrest Hayes,"Virgin Islands, British",PURA200,Online,210,2011-12-19
+23871,Maggie Howard,New Zealand,PURA250,Online,152,2011-09-30
+23872,Colin Vazquez,Botswana,SUPA105,Online,67,2011-09-07
+23873,Leroy Russo,Samoa,PURA200,Retail,41,2011-12-27
+23874,Marvin Oneil,Bosnia and Herzegovina,SUPA101,Online,61,2011-11-10
+23875,Leah Kline,Belize,PURA100,Retail,92,2011-09-19
+23876,Mechelle Gutierrez,Bouvet Island,SUPA102,Online,119,2011-10-25
+23877,Kadeem Vasquez,Azerbaijan,DETA800,Online,119,2011-11-21
+23878,Cheryl Horne,Ukraine,DETA100,Online,66,2011-11-06
+23879,Savannah Everett,Czech Republic,PURA100,Online,9,2011-09-10
+23880,Burke Vinson,Lebanon,SUPA102,Retail,96,2011-09-05
+23881,Fitzgerald Fleming,Reunion,PURA200,Direct,104,2011-12-10
+23882,Drake Gibson,Iraq,SUPA101,Online,180,2011-09-23
+23883,Odysseus Vaughn,Burkina Faso,SUPA102,Online,7,2011-10-11
+23884,Arden Atkinson,Guinea,SUPA103,Retail,109,2011-11-30
+23885,Leigh Schultz,Italy,SUPA101,Retail,146,2011-09-27
+23886,Brielle Roberson,Poland,SUPA103,Retail,141,2011-10-18
+23887,Adam Blackburn,Lebanon,PURA200,Online,201,2011-11-20
+23888,Hop Gomez,Qatar,SUPA105,Retail,132,2011-10-03
+23889,Laith Conley,Peru,SUPA103,Retail,148,2011-12-20
+23890,Astra Terry,Armenia,PURA500,Retail,184,2011-10-16
+23891,Tucker Hudson,Azerbaijan,PURA500,Online,197,2011-11-27
+23892,Madeson Holcomb,South Georgia and The South Sandwich Islands,DETA200,Online,72,2011-12-01
+23893,Barclay Guerrero,Sierra Leone,SUPA105,Online,46,2011-09-16
+23894,Talon Boyer,Niger,SUPA101,Online,104,2011-12-01
+23895,Rudyard Chan,Sweden,PURA100,Retail,197,2011-11-11
+23896,Lyle Lawson,Andorra,SUPA102,Online,3,2011-09-11
+23897,Karen Buchanan,Central African Republic,DETA800,Retail,202,2011-11-11
+23898,Karina Contreras,Kuwait,SUPA103,Retail,127,2011-11-10
+23899,Garrett Burnett,Poland,SUPA101,Retail,178,2011-12-22
+23900,Tana Velasquez,Antarctica,PURA200,Retail,54,2011-12-18
+23901,Jasper Shannon,Guyana,PURA100,Retail,169,2011-09-27
+23902,Quyn Russo,Qatar,DETA200,Online,128,2011-09-06
+23903,Dillon Carlson,Italy,SUPA102,Online,2,2011-09-20
+23904,Dean Galloway,Solomon Islands,PURA250,Direct,149,2011-11-19
+23905,Rogan Best,Svalbard and Jan Mayen,PURA500,Retail,56,2011-12-06
+23906,Deirdre Wyatt,Mongolia,DETA100,Retail,155,2011-10-19
+23907,Zelda Dickson,Singapore,SUPA101,Online,162,2011-12-03
+23908,Ashely Cherry,Saint Lucia,DETA800,Online,102,2011-10-20
+23909,Cassady Scott,Qatar,SUPA103,Online,66,2011-10-28
+23910,Zena Miranda,Kyrgyzstan,SUPA105,Direct,82,2011-10-21
+23911,Sandra Rios,Costa Rica,PURA100,Retail,180,2011-10-30
+23912,Chaney Myers,Kuwait,SUPA104,Retail,39,2011-12-05
+23913,Eve Gill,Uruguay,SUPA102,Online,6,2011-10-26
+23914,Aphrodite Cohen,Panama,DETA200,Retail,131,2011-12-19
+23915,Janna Sears,Uzbekistan,SUPA101,Online,134,2011-11-03
+23916,Howard Weaver,Somalia,DETA100,Online,212,2011-11-05
+23917,Shellie Dean,Spain,SUPA105,Online,106,2011-10-25
+23918,Ian Mcdaniel,Kazakhstan,PURA200,Direct,204,2011-09-04
+23919,Desiree Booth,Cocos (Keeling) Islands,PURA100,Retail,120,2011-09-08
+23920,Erica Vargas,Cambodia,PURA500,Retail,196,2011-12-05
+23921,Lacey Greer,Algeria,DETA800,Direct,145,2011-10-04
+23922,Brynn Avila,Myanmar,SUPA103,Retail,159,2011-12-01
+23923,Isabelle Bass,Bolivia,DETA800,Online,196,2011-12-20
+23924,Nadine Flores,United States Minor Outlying Islands,DETA100,Retail,120,2011-12-12
+23925,Deanna Kelley,Nauru,SUPA101,Online,118,2011-12-24
+23926,Fletcher Savage,Swaziland,SUPA105,Online,152,2011-12-27
+23927,Shaeleigh Rivera,Congo,DETA800,Online,151,2011-10-16
+23928,Maisie Witt,Malaysia,SUPA103,Online,74,2011-12-29
+23929,Illana Mccall,Bouvet Island,SUPA104,Retail,47,2011-10-05
+23930,Katelyn Finley,Comoros,PURA200,Retail,189,2011-10-30
+23931,Merritt Sosa,Kuwait,PURA200,Retail,138,2011-09-14
+23932,Brooke Shannon,United Arab Emirates,DETA200,Retail,115,2011-10-08
+23933,Kenneth Bolton,Hungary,SUPA104,Online,208,2011-12-25
+23934,Knox Fox,Solomon Islands,PURA100,Online,166,2011-11-02
+23935,Colton Briggs,Syrian Arab Republic,SUPA103,Online,17,2011-10-19
+23936,Felicia Alvarez,Haiti,SUPA102,Online,195,2011-10-29
+23937,Desirae Christensen,Angola,DETA800,Online,162,2011-12-05
+23938,Jennifer Montgomery,Saudi Arabia,SUPA105,Online,45,2011-10-31
+23939,Lester Holmes,Haiti,DETA200,Retail,163,2011-09-23
+23940,Lara Rogers,Hungary,PURA100,Online,131,2011-11-11
+23941,Autumn Brock,Australia,SUPA102,Online,54,2011-09-13
+23942,Fitzgerald Gray,Argentina,SUPA105,Direct,117,2011-12-03
+23943,Morgan Turner,Norfolk Island,DETA800,Direct,128,2011-12-22
+23944,Kylynn Woodward,Venezuela,DETA200,Direct,170,2011-11-28
+23945,Audrey Wiggins,Poland,PURA500,Retail,183,2011-11-11
+23946,Guinevere Ford,Swaziland,DETA100,Online,139,2011-11-12
+23947,Rebekah Farley,Netherlands,SUPA102,Retail,113,2011-12-26
+23948,Olympia Contreras,Sri Lanka,PURA100,Retail,170,2011-11-14
+23949,Evelyn Garza,Bangladesh,DETA100,Retail,19,2011-09-08
+23950,Wendy Norris,Faroe Islands,PURA200,Retail,93,2011-12-02
+23951,Sasha Morton,Samoa,PURA500,Direct,10,2011-12-29
+23952,Kevin Schwartz,Puerto Rico,PURA500,Online,81,2011-11-27
+23953,Ferdinand Holder,Anguilla,PURA100,Retail,164,2011-09-06
+23954,Sarah Leblanc,Morocco,PURA100,Online,106,2011-10-25
+23955,Ethan Colon,Ukraine,PURA200,Retail,26,2011-10-26
+23956,Amber Evans,Nigeria,DETA100,Retail,183,2011-11-06
+23957,Lana Hunter,Australia,SUPA101,Direct,81,2011-10-26
+23958,Malcolm Hoffman,Norfolk Island,DETA800,Retail,45,2011-12-15
+23959,Buffy Powers,Oman,SUPA101,Retail,148,2011-12-04
+23960,Brennan Lee,Brazil,SUPA104,Online,78,2011-09-24
+23961,Garth Rogers,Bhutan,DETA200,Online,133,2011-12-10
+23962,Mollie Chaney,Cameroon,PURA500,Retail,17,2011-09-28
+23963,Mikayla Randall,"Taiwan, Province of China",PURA500,Retail,145,2011-12-29
+23964,Ruth Mathews,Svalbard and Jan Mayen,PURA100,Direct,141,2011-10-23
+23965,Joseph Hunt,Indonesia,DETA200,Online,44,2011-10-07
+23966,Sonya Shaw,Sao Tome and Principe,SUPA103,Online,167,2011-11-08
+23967,Hedy Murray,Dominican Republic,SUPA104,Online,143,2011-09-17
+23968,Thomas Sanders,Luxembourg,DETA100,Retail,208,2011-09-23
+23969,Buffy Moore,Nicaragua,PURA100,Retail,124,2011-12-05
+23970,Alma Higgins,Hong Kong,PURA100,Online,148,2011-11-26
+23971,Paki Richmond,Gibraltar,PURA250,Retail,114,2011-11-22
+23972,Brent Cabrera,Vanuatu,SUPA102,Retail,192,2011-09-02
+23973,Kennan Winters,Pakistan,PURA100,Online,142,2011-12-02
+23974,Ila Webb,Sierra Leone,SUPA102,Retail,156,2011-12-18
+23975,Lunea Nieves,Portugal,DETA100,Retail,123,2011-11-19
+23976,Christine Hale,Malaysia,SUPA101,Online,70,2011-12-29
+23977,Nichole Weiss,Zimbabwe,PURA100,Online,161,2011-11-09
+23978,Dillon Barlow,Brunei Darussalam,DETA800,Retail,16,2011-12-19
+23979,Cruz Morris,Anguilla,PURA200,Retail,163,2011-11-16
+23980,Armando Huber,Slovakia,SUPA101,Retail,52,2011-11-08
+23981,Yvonne Stanley,Timor-leste,SUPA104,Retail,39,2011-12-09
+23982,Lillian Pitts,New Zealand,SUPA105,Online,67,2011-10-01
+23983,Boris Brooks,China,DETA200,Online,30,2011-10-05
+23984,Macey Prince,"Taiwan, Province of China",SUPA103,Retail,32,2011-12-24
+23985,Amity Ware,Ecuador,SUPA105,Online,48,2011-11-03
+23986,Darrel Harrell,Venezuela,PURA100,Online,61,2011-11-24
+23987,Thaddeus Mercado,Czech Republic,SUPA101,Online,35,2011-10-05
+23988,Logan Gates,Martinique,SUPA104,Online,81,2011-09-04
+23989,Uma Ramos,Zimbabwe,DETA800,Online,58,2011-09-03
+23990,Vera Perry,Myanmar,DETA100,Direct,71,2011-09-26
+23991,Scarlett Padilla,Barbados,SUPA101,Online,55,2011-09-20
+23992,Garth Durham,Wallis and Futuna,DETA100,Retail,34,2011-09-30
+23993,Cooper Guy,Sweden,PURA100,Direct,161,2011-09-18
+23994,Bethany Coffey,Andorra,DETA200,Retail,171,2011-10-14
+23995,Brendan Mooney,Chad,DETA200,Retail,188,2011-12-14
+23996,Patricia Stanley,Bahrain,PURA100,Online,58,2011-12-05
+23997,Regan Whitehead,Turkey,PURA200,Online,161,2011-09-11
+23998,Knox Tillman,Netherlands Antilles,PURA250,Online,127,2011-09-24
+23999,Eden Padilla,Mauritius,SUPA103,Retail,94,2011-09-18
+24000,Sopoline Stout,Greece,PURA500,Online,4,2011-12-11
+24001,Emerald Rojas,Puerto Rico,PURA200,Retail,83,2011-12-11
+24002,Ciara Burks,Equatorial Guinea,PURA200,Retail,22,2011-09-14
+24003,Sybill Mendoza,Togo,SUPA104,Online,62,2011-09-23
+24004,Sharon Elliott,Indonesia,DETA800,Online,140,2011-11-29
+24005,Naida Silva,Estonia,DETA200,Retail,203,2011-12-10
+24006,Mira Cameron,Croatia,DETA800,Retail,94,2011-10-18
+24007,Rooney Herman,Faroe Islands,DETA800,Online,57,2011-10-06
+24008,Devin Shepard,Iceland,PURA250,Online,139,2011-09-15
+24009,Riley Sellers,Bahamas,SUPA102,Online,92,2011-11-10
+24010,Cruz Ray,Eritrea,SUPA102,Retail,23,2011-10-13
+24011,Merritt Romero,United Kingdom,PURA100,Online,60,2011-10-12
+24012,Yvette Sosa,Antigua and Barbuda,SUPA101,Retail,133,2011-10-21
+24013,Sylvester Lopez,"Iran, Islamic Republic of",SUPA104,Direct,68,2011-12-01
+24014,Gregory Sykes,Chad,SUPA102,Online,38,2011-09-13
+24015,Wade Walter,Puerto Rico,DETA800,Online,70,2011-12-21
+24016,Megan Clemons,Croatia,SUPA101,Direct,63,2011-12-16
+24017,Ignatius Contreras,Denmark,PURA250,Online,208,2011-11-13
+24018,Willa Strong,Canada,SUPA103,Direct,37,2011-10-15
+24019,Alfonso Shepherd,Guinea,SUPA105,Online,52,2011-09-29
+24020,Sean Townsend,Bouvet Island,PURA500,Online,138,2011-12-30
+24021,Ronan Stark,Lesotho,SUPA105,Retail,182,2011-09-29
+24022,Kalia Roberson,Saint Pierre and Miquelon,PURA100,Online,84,2011-09-25
+24023,Ignacia Olsen,Equatorial Guinea,DETA100,Retail,172,2011-12-22
+24024,Olga Young,Mongolia,PURA200,Retail,208,2011-09-04
+24025,Nina Shaffer,Norway,DETA800,Online,44,2011-10-14
+24026,Sandra Odonnell,Congo,PURA100,Online,210,2011-09-22
+24027,Paloma Duran,South Georgia and The South Sandwich Islands,SUPA103,Direct,156,2011-10-28
+24028,Gisela Mckee,"Iran, Islamic Republic of",SUPA102,Retail,181,2011-11-03
+24029,Theodore Wells,Bosnia and Herzegovina,PURA100,Online,98,2011-11-07
+24030,Jordan Dawson,Austria,DETA200,Online,118,2011-11-02
+24031,Neville Glenn,Luxembourg,DETA100,Online,161,2011-10-31
+24032,Daquan Mckay,Western Sahara,DETA100,Retail,196,2011-09-26
+24033,Byron Briggs,Eritrea,SUPA103,Direct,35,2011-12-23
+24034,Fulton Conley,Saint Vincent and The Grenadines,DETA100,Online,47,2011-12-02
+24035,Jamalia Sims,Gambia,SUPA104,Online,91,2011-12-26
+24036,Zephania Mills,Netherlands,PURA250,Retail,173,2011-11-17
+24037,Fulton Boyd,Norway,DETA200,Online,43,2011-10-12
+24038,Bertha Juarez,Sri Lanka,PURA100,Retail,115,2011-11-22
+24039,Paloma Armstrong,New Caledonia,DETA800,Retail,102,2011-09-17
+24040,Sonya Leon,Venezuela,SUPA103,Online,155,2011-11-11
+24041,Patience Mcclain,Saint Kitts and Nevis,PURA500,Retail,35,2011-12-28
+24042,Macey Shaw,Paraguay,PURA250,Online,170,2011-11-11
+24043,Amethyst Dotson,Haiti,SUPA101,Online,42,2011-12-09
+24044,Beatrice Golden,Antarctica,PURA200,Online,82,2011-10-02
+24045,Kaye Graves,New Caledonia,DETA800,Online,3,2011-11-14
+24046,Lois Mcdowell,Guam,PURA500,Online,68,2011-11-08
+24047,Allen Caldwell,"Palestinian Territory, Occupied",SUPA104,Online,58,2011-10-23
+24048,Theodore Langley,Syrian Arab Republic,DETA200,Retail,178,2011-09-22
+24049,Tate Schneider,Viet Nam,DETA100,Online,156,2011-12-08
+24050,Melyssa Sawyer,Ecuador,SUPA102,Online,147,2011-12-18
+24051,Charissa Olsen,Luxembourg,SUPA101,Retail,74,2011-11-08
+24052,Althea Good,Central African Republic,SUPA101,Online,189,2011-11-11
+24053,Anthony Foster,Micronesia,PURA250,Retail,104,2011-12-03
+24054,Quentin Houston,Suriname,SUPA104,Online,56,2011-12-07
+24055,Ayanna Gentry,Mauritius,DETA200,Online,33,2011-10-06
+24056,Erasmus Morrison,Myanmar,SUPA103,Online,204,2011-10-31
+24057,Maris Cantrell,Finland,SUPA101,Retail,5,2011-12-22
+24058,Quentin Hill,Oman,PURA200,Retail,199,2011-12-12
+24059,Cade Pace,Barbados,SUPA101,Online,129,2011-12-09
+24060,Kibo Gibbs,Burundi,PURA100,Online,14,2011-08-24
+24061,Ignatius Glass,Indonesia,DETA200,Direct,91,2011-08-01
+24062,Chloe Black,Samoa,SUPA105,Online,43,2011-02-20
+24063,Jeremy Justice,Malta,DETA800,Online,140,2011-04-29
+24064,Bruce Summers,Romania,SUPA101,Retail,38,2011-04-09
+24065,Yeo Welch,Norway,PURA200,Online,57,2011-02-11
+24066,Simon Keith,Cambodia,SUPA103,Direct,34,2011-06-01
+24067,Quamar Albert,Botswana,PURA200,Online,4,2011-01-12
+24068,Desiree Beach,Lithuania,DETA200,Direct,208,2011-06-11
+24069,Daphne Graves,Yemen,PURA100,Online,132,2011-05-29
+24070,Zorita Vincent,Pakistan,DETA100,Retail,94,2011-02-15
+24071,Aimee Sparks,Singapore,SUPA105,Online,38,2011-03-25
+24072,Adara Shields,Bhutan,SUPA104,Online,159,2011-03-27
+24073,Brock Sullivan,Nauru,SUPA101,Retail,15,2011-01-06
+24074,Alma Riley,Turkey,SUPA103,Retail,147,2011-07-27
+24075,Angelica Bridges,Micronesia,PURA250,Retail,4,2011-01-14
+24076,Camden Roy,Seychelles,DETA200,Retail,200,2011-03-29
+24077,Samson Bishop,Armenia,SUPA104,Online,61,2011-07-23
+24078,Alana Garrison,Belgium,DETA800,Retail,63,2011-05-26
+24079,Maxwell Workman,Guinea,PURA500,Retail,129,2011-05-10
+24080,Clare Barnes,United Kingdom,PURA200,Online,48,2011-08-11
+24081,Jameson Anderson,Costa Rica,PURA100,Direct,192,2011-01-06
+24082,Evan York,United States,PURA100,Direct,150,2011-01-02
+24083,Tatyana Burns,Qatar,SUPA103,Online,125,2011-08-30
+24084,Hayley Chaney,Mongolia,SUPA103,Online,135,2011-08-22
+24085,Sybill Christensen,Saint Pierre and Miquelon,PURA200,Online,128,2011-05-22
+24086,Gary Keller,Samoa,DETA100,Online,5,2011-07-04
+24087,Tana Sharpe,Cocos (Keeling) Islands,PURA200,Retail,43,2011-05-25
+24088,Eleanor Lewis,Paraguay,DETA100,Online,44,2011-08-12
+24089,Calista Osborn,Argentina,PURA250,Direct,124,2011-01-29
+24090,Macaulay Meadows,Botswana,PURA250,Retail,42,2011-02-01
+24091,Perry Livingston,Togo,PURA500,Online,187,2011-06-24
+24092,Clare Barry,Lesotho,SUPA104,Retail,147,2011-06-19
+24093,Gage Rivera,Czech Republic,SUPA102,Retail,53,2011-04-04
+24094,Rhea Stokes,Fiji,SUPA101,Retail,71,2011-04-14
+24095,Jasmine Gardner,Bolivia,DETA200,Retail,50,2011-05-12
+24096,Mira Bolton,Bosnia and Herzegovina,SUPA103,Retail,54,2011-04-15
+24097,Aurora Lawrence,Moldova,DETA100,Online,164,2011-05-03
+24098,Cally Pratt,Swaziland,SUPA104,Online,77,2011-03-23
+24099,Jonah Mccall,Timor-leste,DETA800,Direct,175,2011-08-30
+24100,Lareina Barton,Mauritius,SUPA102,Retail,177,2011-06-14
+24101,Fleur Mcdaniel,Indonesia,SUPA104,Retail,143,2011-02-18
+24102,Adrienne Mack,Puerto Rico,SUPA102,Retail,183,2011-02-20
+24103,Leigh Matthews,Kazakhstan,PURA500,Online,25,2011-07-11
+24104,Ignatius Petty,Pakistan,SUPA103,Direct,169,2011-06-13
+24105,Nathan Sweet,Guinea,DETA100,Online,98,2011-07-12
+24106,Jason Cox,China,DETA800,Online,102,2011-01-27
+24107,Herman Bryan,Guinea,SUPA101,Online,29,2011-08-28
+24108,Gisela Lloyd,Gibraltar,SUPA103,Retail,42,2011-05-30
+24109,Elliott Lawrence,French Polynesia,PURA250,Online,182,2011-03-18
+24110,Nicole Mcgowan,Honduras,SUPA102,Retail,39,2011-08-29
+24111,Thomas Tyler,Pitcairn,DETA100,Online,166,2011-07-17
+24112,Jermaine Wilson,Guyana,SUPA103,Online,20,2011-07-14
+24113,Octavia Flowers,Afghanistan,SUPA103,Online,5,2011-06-11
+24114,Vernon Daniels,Afghanistan,SUPA105,Retail,179,2011-01-03
+24115,Anne Rivers,Bulgaria,SUPA104,Online,169,2011-02-08
+24116,Jackson Gallegos,Andorra,PURA100,Online,153,2011-06-16
+24117,Kirestin Whitehead,Liberia,SUPA105,Online,199,2011-05-28
+24118,Brendan Cruz,El Salvador,PURA500,Online,41,2011-02-19
+24119,Rajah Nelson,Cameroon,DETA800,Online,197,2011-04-10
+24120,Quinlan Hebert,Burkina Faso,PURA250,Retail,99,2011-03-28
+24121,Orla Armstrong,British Indian Ocean Territory,DETA800,Retail,91,2011-03-11
+24122,Zenia Carr,Sri Lanka,PURA250,Direct,125,2011-02-14
+24123,Odette Mills,Myanmar,PURA100,Online,18,2011-08-14
+24124,August Levy,Czech Republic,PURA100,Retail,159,2011-03-23
+24125,Hannah Kemp,Guyana,DETA100,Online,104,2011-08-22
+24126,Samuel Tyler,Andorra,PURA200,Online,125,2011-04-07
+24127,Kyra Pollard,Barbados,SUPA102,Online,25,2011-06-26
+24128,Ori Cummings,Anguilla,PURA100,Retail,183,2011-01-29
+24129,Cairo Boyer,Montserrat,PURA200,Online,197,2011-04-29
+24130,Caldwell Caldwell,Burkina Faso,SUPA104,Online,84,2011-02-20
+24131,Gemma Riley,Lebanon,DETA100,Direct,198,2011-01-08
+24132,Lunea Martinez,Azerbaijan,DETA100,Online,206,2011-07-27
+24133,Leila Mason,Rwanda,SUPA105,Online,42,2011-08-03
+24134,Howard Colon,Saint Vincent and The Grenadines,SUPA103,Online,47,2011-02-17
+24135,Abigail Cunningham,Serbia and Montenegro,SUPA103,Retail,108,2011-04-08
+24136,Sandra Perry,Peru,SUPA103,Retail,174,2011-01-07
+24137,Lana Good,Antigua and Barbuda,SUPA102,Online,68,2011-07-30
+24138,Brian Trevino,Antigua and Barbuda,SUPA105,Online,108,2011-04-28
+24139,Connor Soto,Switzerland,PURA200,Online,10,2011-08-25
+24140,Basil Foley,Uruguay,PURA250,Retail,58,2011-04-14
+24141,Stephen Herring,Brunei Darussalam,PURA250,Online,203,2011-02-16
+24142,Dacey Stark,Egypt,PURA100,Retail,201,2011-05-24
+24143,Ursula Salinas,Guatemala,SUPA103,Online,13,2011-05-18
+24144,Hakeem Singleton,Uganda,SUPA102,Online,168,2011-05-24
+24145,Medge Vargas,Mozambique,DETA800,Direct,89,2011-05-09
+24146,Merritt Sanford,Eritrea,DETA200,Online,64,2011-06-24
+24147,Jackson Rivas,Croatia,SUPA101,Online,12,2011-07-24
+24148,Rae Hurst,"Taiwan, Province of China",PURA250,Online,58,2011-03-16
+24149,Tucker Klein,Armenia,PURA100,Online,142,2011-03-18
+24150,Laura Holloway,British Indian Ocean Territory,SUPA101,Retail,46,2011-04-08
+24151,Velma Nichols,Puerto Rico,DETA100,Online,210,2011-07-04
+24152,Amela Carpenter,Iraq,SUPA101,Retail,130,2011-01-02
+24153,Judith Hopper,Ethiopia,DETA800,Retail,173,2011-01-12
+24154,Sara Chaney,Vanuatu,SUPA102,Online,54,2011-08-18
+24155,George Mcpherson,Paraguay,SUPA102,Retail,44,2011-01-17
+24156,Wylie Landry,Guinea-bissau,DETA200,Online,71,2011-03-13
+24157,Gloria Talley,United States,PURA250,Online,132,2011-05-11
+24158,Risa Decker,Brunei Darussalam,PURA500,Retail,38,2011-07-27
+24159,Sebastian Huber,Bahamas,SUPA102,Retail,40,2011-03-06
+24160,Ciara Mcfarland,"Iran, Islamic Republic of",DETA800,Retail,58,2011-08-27
+24161,Susan Fisher,Reunion,SUPA103,Online,185,2011-05-29
+24162,Irene Beach,Korea,PURA200,Online,61,2011-06-22
+24163,Athena Faulkner,Moldova,SUPA101,Retail,84,2011-06-28
+24164,Tamekah Roach,Jordan,PURA200,Retail,119,2011-01-25
+24165,Luke Malone,Suriname,SUPA105,Online,54,2011-03-17
+24166,Amery David,Anguilla,PURA100,Retail,191,2011-01-17
+24167,Kameko Mcfadden,Kenya,DETA200,Online,181,2011-07-23
+24168,Howard Hinton,Bangladesh,PURA250,Online,99,2011-05-19
+24169,Buffy Kidd,Austria,DETA100,Online,120,2011-07-08
+24170,Xerxes Brady,Yemen,DETA100,Direct,38,2011-08-01
+24171,Jessica Skinner,Palau,SUPA104,Online,2,2011-08-07
+24172,Lester Luna,Bermuda,PURA100,Online,99,2011-07-19
+24173,Adena Gates,Gabon,SUPA104,Online,136,2011-01-06
+24174,Garrison Peters,Christmas Island,PURA200,Online,163,2011-07-10
+24175,Lani Ferrell,Bermuda,PURA250,Online,97,2011-03-01
+24176,Wing Stevenson,Chad,DETA200,Retail,209,2011-04-21
+24177,Noble Hopper,Eritrea,DETA200,Retail,33,2011-03-18
+24178,Regan Kirk,Anguilla,PURA100,Retail,80,2011-06-05
+24179,Hyatt Durham,Somalia,PURA500,Retail,190,2011-08-24
+24180,Bree Acevedo,Hong Kong,SUPA101,Online,168,2011-01-22
+24181,Brenda Wolfe,Australia,SUPA102,Online,12,2011-03-08
+24182,Isabella Avery,Austria,SUPA103,Retail,31,2011-04-14
+24183,Kitra Reilly,British Indian Ocean Territory,PURA100,Online,51,2011-04-17
+24184,Lucius Wilkins,Equatorial Guinea,SUPA105,Online,135,2011-02-19
+24185,Shelley Long,Honduras,DETA100,Online,80,2011-06-26
+24186,Pascale Reed,Grenada,DETA200,Online,15,2011-03-10
+24187,Cara Salazar,Nauru,PURA250,Online,81,2011-05-13
+24188,Oliver Wolf,Brunei Darussalam,PURA200,Online,185,2011-03-01
+24189,David Moses,Palau,SUPA101,Retail,3,2011-08-27
+24190,Stacy Hickman,Zambia,PURA500,Online,185,2011-02-22
+24191,Addison Doyle,Macedonia,SUPA103,Online,127,2011-01-03
+24192,Xyla Gomez,Andorra,DETA800,Direct,15,2011-04-19
+24193,Lucius Figueroa,Gambia,SUPA103,Online,133,2011-01-19
+24194,Thomas Douglas,"Virgin Islands, British",SUPA102,Online,138,2011-02-12
+24195,Robin Stuart,Ukraine,SUPA101,Online,132,2011-01-17
+24196,Joelle Johns,Tajikistan,SUPA104,Online,13,2011-07-18
+24197,Alma Benson,United Kingdom,PURA200,Online,136,2011-07-27
+24198,Stacy Schwartz,Botswana,PURA200,Retail,25,2011-04-29
+24199,Ursa Landry,Chad,DETA800,Online,200,2011-04-03
+24200,Frances Hammond,Samoa,PURA250,Retail,148,2011-07-11
+24201,Elizabeth Schwartz,Cook Islands,SUPA102,Retail,175,2011-04-22
+24202,Kadeem Carpenter,Comoros,DETA200,Retail,44,2011-01-28
+24203,Gisela Gay,Antarctica,SUPA104,Online,39,2011-07-02
+24204,Jacob Oconnor,Germany,SUPA105,Retail,80,2011-06-13
+24205,Priscilla Quinn,Poland,PURA250,Online,198,2011-05-27
+24206,Emerson Wilcox,Namibia,PURA500,Retail,203,2011-05-26
+24207,Oliver Cherry,Philippines,SUPA101,Direct,210,2011-01-04
+24208,Ramona Munoz,Vanuatu,PURA250,Online,94,2011-01-21
+24209,Felicia Turner,Nauru,SUPA103,Retail,142,2011-07-01
+24210,Autumn Anthony,Georgia,SUPA102,Retail,94,2011-06-12
+24211,Eaton Shaffer,Guadeloupe,PURA100,Retail,129,2011-07-05
+24212,Karyn Nolan,Netherlands Antilles,SUPA102,Retail,15,2011-03-22
+24213,Lance Durham,Trinidad and Tobago,SUPA104,Online,155,2011-05-14
+24214,Leigh Little,Iceland,SUPA104,Retail,120,2011-02-21
+24215,Denise Harrington,South Georgia and The South Sandwich Islands,PURA100,Direct,171,2011-05-14
+24216,Hollee Briggs,Greece,PURA200,Retail,11,2011-03-22
+24217,Keegan Moses,Japan,SUPA104,Online,159,2011-07-02
+24218,Keith Gilmore,Swaziland,DETA100,Retail,66,2011-06-29
+24219,Hu Warren,Vanuatu,DETA800,Retail,143,2011-06-27
+24220,Dylan Simmons,American Samoa,DETA200,Online,26,2011-05-23
+24221,Daphne Curry,Azerbaijan,SUPA103,Online,190,2011-05-03
+24222,Slade Russo,Rwanda,SUPA103,Retail,3,2011-01-30
+24223,Brenda Hays,Cyprus,PURA200,Online,106,2011-01-15
+24224,Aladdin Blackwell,French Guiana,DETA100,Retail,181,2011-03-28
+24225,Clementine Hewitt,Egypt,PURA100,Online,141,2011-01-10
+24226,Cherokee Shaffer,Rwanda,PURA100,Online,64,2011-03-20
+24227,Orla Cotton,Puerto Rico,DETA800,Retail,204,2011-07-19
+24228,Hayley Williamson,Sierra Leone,PURA250,Direct,1,2011-05-23
+24229,Rose Young,Cook Islands,DETA100,Online,21,2011-05-01
+24230,Iliana Dawson,Bangladesh,SUPA101,Online,84,2011-07-31
+24231,Rose Baker,Honduras,PURA250,Direct,33,2011-08-28
+24232,Justin Melton,Haiti,DETA100,Retail,177,2011-05-05
+24233,Haviva Stevenson,Syrian Arab Republic,SUPA102,Retail,162,2011-03-12
+24234,Selma Roach,Haiti,SUPA103,Retail,204,2011-08-20
+24235,Florence Pennington,Sudan,SUPA103,Retail,138,2011-07-12
+24236,Raya Lynch,Iraq,DETA800,Online,195,2011-02-22
+24237,Tamara Hodges,New Zealand,PURA100,Retail,110,2011-07-27
+24238,Zachery Kerr,Bahamas,DETA200,Online,59,2011-05-30
+24239,Victor Suarez,Pitcairn,PURA200,Online,201,2011-06-04
+24240,Roary Gray,Japan,PURA250,Direct,44,2011-05-05
+24241,Otto Golden,Belgium,PURA250,Online,36,2011-08-06
+24242,Jorden Contreras,Malawi,DETA100,Online,11,2011-04-27
+24243,Lester Emerson,Hungary,PURA200,Online,88,2011-02-05
+24244,Bell Shaffer,Nauru,PURA200,Retail,16,2011-08-30
+24245,Shoshana Wilkinson,Greece,SUPA102,Direct,138,2011-07-08
+24246,Vivian Colon,Latvia,SUPA104,Retail,92,2011-06-12
+24247,Forrest Maddox,Iceland,PURA250,Online,74,2011-07-30
+24248,Clayton Gomez,Mali,SUPA101,Retail,144,2011-05-30
+24249,Jerome Hoffman,Czech Republic,SUPA101,Online,151,2011-03-09
+24250,Maia Schmidt,Azerbaijan,SUPA102,Online,11,2011-03-09
+24251,Deacon Williamson,Latvia,PURA500,Online,15,2011-04-28
+24252,Wynne Poole,Tokelau,PURA250,Online,170,2011-06-05
+24253,Azalia Simmons,Saudi Arabia,DETA100,Online,77,2011-05-09
+24254,Anika Alford,Belize,DETA800,Online,6,2011-07-08
+24255,Ethan Day,Tajikistan,DETA100,Online,189,2011-01-09
+24256,Quail Knox,Tonga,PURA500,Retail,43,2011-05-08
+24257,Noelle Sargent,Ireland,DETA800,Direct,17,2011-02-04
+24258,Kuame Wallace,Montserrat,SUPA103,Online,80,2011-01-13
+24259,Lester Fisher,Cocos (Keeling) Islands,PURA500,Direct,138,2011-08-10
