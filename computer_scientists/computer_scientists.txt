@@ -1,0 +1,56 @@
+Alan Turing:
+Pioneering mathematician and computer scientist.
+Introduced the Turing Test for AI.
+
+Geoffrey Hinton:
+Canadian neural networks and deep learning expert.
+Advanced natural language processing (NLP) with backpropagation and convolutional neural networks (CNNs).
+
+Yann LeCun:
+French scientist known for his work on CNNs.
+Revolutionized AI for image and text processing.
+
+Jurafsky and Martin:
+Influential experts in natural language processing.
+Authored textbooks and research that have shaped the NLP field.
+
+Ada Lovelace:
+Considered the first computer programmer.
+Developed algorithms for Charles Babbage's Analytical Engine.
+
+Grace Hopper:
+Developed the first compiler for a computer programming language.
+Pioneered the development of COBOL, one of the first high-level programming languages.
+
+Andrew Ng:
+Co-founder of Google Brain.
+Made significant contributions to the development of deep learning and AI education through online courses.
+
+Demis Hassabis:
+Co-founder and CEO of DeepMind.
+Led the development of AlphaGo, the first computer program to defeat a world champion in the game of Go.
+
+Marvin Minsky:
+Co-founder of the MIT Artificial Intelligence Laboratory.
+Made foundational contributions to the fields of AI, cognitive psychology, computational linguistics, and robotics.
+
+John McCarthy:
+Coined the term "Artificial Intelligence."
+Developed Lisp programming language, influential in AI research.
+
+Geoffrey Everest Hinton:
+Known as the "Godfather of Deep Learning."
+His work on neural networks has been fundamental in the development of deep learning technologies.
+
+Fei-Fei Li:
+Led the team that developed ImageNet, a large visual database instrumental for advances in deep learning in image recognition.
+Co-founded AI4ALL, a non-profit dedicated to increasing diversity and inclusion in AI education, research, development, and policy.
+
+Yoshua Bengio:
+Canadian computer scientist, most noted for his work on artificial neural networks and deep learning.
+Along with Geoffrey Hinton and Yann LeCun, considered one of the "three musketeers" of deep learning.
+
+
+Ray Kurzweil:
+An author, computer scientist, inventor, and futurist known for his work on optical character recognition (OCR), text-to-speech synthesis, speech recognition technology, and electronic keyboard instruments.
+Advocates for the future role of artificial intelligence in enhancing human capabilities.
