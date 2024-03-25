@@ -1,0 +1,634 @@
+let formSelectors = {
+    commentsContainer: ".comments_container",
+    form: ".lp__conversation_form",
+    button: ".comments_save_button",
+    responseTextarea: ".response_textarea",
+    responseCount: ".response_count",
+    termsAndConditionsCheckbox: ".terms_and_conditions_chcekbox",
+    userNameErrorMessage: ".name_error_message",
+    emailErrorMessage: ".email_error_message",
+    responseErrorMessage: ".response_error_message",
+    termsAndConditionsErrorMessage: ".terms_and_conditions_error_message",
+    alertSuccess: ".tui__alert_success",
+    alertError: ".tui__alert_error",
+    commentsCount: ".comments-count",
+};
+
+let commentSelectors = {
+    comemntsWrapper: ".comments_wrapper",
+    conversationWrapper: ".lp__conversation_wrapper",
+    conversationText: ".lp__conversation_title_text",
+    commentTitle: ".tui_author_title_text",
+    commentDate: ".lp__conversation_title_time_label",
+    commentBox: ".lp__commnet_box",
+    conversationBody: ".lp__conversation_body",
+    conversationBodyEditable: ".lp__conversation_body_editable",
+    showMoreButtons: ".lp__conversation_body_show_more_buttons",
+    replyComment: " .lp__reply",
+    readMore: ".lp__read_more",
+    readLess: ".lp__read_less",
+    moreText: ".lp__moreText",
+    dots: ".lp__dots",
+    hidden: "hidden",
+    pageItem: ".page-item"
+}
+
+let appName = "Blogs";
+let paragraphLimit = 400;
+let commentSectionTemplate = document.querySelector("#comment-section").content.querySelector(commentSelectors.conversationWrapper);
+let articleId = document.querySelector(".comments-configs .guid").innerText;
+let postCommentEndpoint = document.querySelector(".comments-configs .post-comment").innerText;
+let getCommentsEndpoint = document.querySelector(".comments-configs .get-comments").innerText;
+let getCommentsCountEndpoint = document.querySelector(".comments-configs .get-comments-count").innerText;
+let subscriptionKey = document.querySelector(".comments-configs .subscription-key").innerText;
+let language = document.querySelector(".comments-configs .language").innerText;
+let channel = document.querySelector(".comments-configs .channelGuid").innerText;
+let channelName = document.querySelector(".comments-configs .channel").innerText;
+let readMore = document.querySelector(".comments-configs .read-more").innerText;
+let readLess = document.querySelector(".comments-configs .read-less").innerText;
+let previous = document.querySelector(".comments-configs .previous-label").innerText;
+let next = document.querySelector(".comments-configs .next-label").innerText;
+let loader = document.querySelector(commentSelectors.comemntsWrapper + " .loader");
+
+let headers = {
+    "Content-Type": "application/json",
+    "Ocp-Apim-Subscription-Key": subscriptionKey
+};
+
+previous = previous.toString().replace("&laquo;", "").trim();
+next = next.replace("&raquo;", "").trim();
+
+let options = {
+    rows: [],
+    totalItems: 1,
+    totalPages: 1,
+    startPage: 1,
+    pageNumber: 1,
+    pageSize: 10,
+    visiblePages: 3,
+    href: false,
+    page: null,
+    prev: previous ? previous : "Previous",
+    next: next ? next : "Next",
+    loop: false,
+    paginationClass: "pagination",
+    nextClass: "page-item next",
+    prevClass: "page-item prev",
+    pageClass: "page-item",
+    activeClass: "active",
+    disabledClass: "disabled",
+    anchorClass: "page-link",
+    hide: "hide"
+};
+
+function onDocumentReady() {
+    loadComments(options.startPage);
+
+    let commentForm = document.querySelector(formSelectors.form);
+    if (commentForm) {
+        submitCommentForm(commentForm, "");
+    }
+
+    function submitCommentForm(commentForm, commentId) {
+        let responseTextarea = commentForm.querySelector(formSelectors.responseTextarea);
+        let maxLength = responseTextarea.attributes.maxLength.value;
+        responseTextarea.onkeyup = function () {
+            var charRemain = (maxLength - this.value.length);
+            commentForm.querySelector(formSelectors.responseCount).innerHTML = charRemain < 0 ? maxLength : charRemain;
+        };
+
+        let saveButton = commentForm.querySelector(formSelectors.button);
+        if (saveButton) {
+            saveButton.addEventListener('click', function (event) {
+                let userName = commentForm.querySelector("input[name='userName']").value;
+                validateUserName(userName, commentForm);
+
+                let userEmail = "";
+                let userEmailInput = commentForm.querySelector("input[name='userEmail']");
+                if (userEmailInput) {
+                    userEmail = userEmailInput.value;
+                    // validateEmail(userEmail, commentForm);
+                }
+                
+                let commentBody = commentForm.querySelector("textarea[class='response_textarea']").value;
+                validateResponseText(commentBody, commentForm);
+
+                let termsAndConditions = commentForm.querySelector(formSelectors.termsAndConditionsCheckbox);
+                validateTerms(termsAndConditions, commentForm);
+
+                if (articleId && userName && commentBody && termsAndConditions.checked) {
+                    commentForm.reset();
+                    commentForm.querySelector(formSelectors.responseCount).innerHTML = 1000;
+
+                    if (postCommentEndpoint && subscriptionKey) {
+                        toggleLoader(true);
+                        let data = {
+                            "appName": appName,
+                            "articleId": articleId,
+                            "userName": userName,
+                            "userEmail": userEmail,
+                            "commentBody": commentBody,
+                            "languageCode": language,
+                            "channel": channel
+                        }
+                        if (commentId) {
+                            data["parentId"] = commentId;
+                        }
+
+                        fetch(postCommentEndpoint, {
+                            method: "POST",
+                            headers: headers,
+                            body: JSON.stringify(data)
+                        })
+                            .then(response => response.json())
+                            .then(result => {
+                                if (result && result.hasOwnProperty("status")) {
+                                    if (result["status"] === "SUCCESS") {
+                                        commentForm.querySelector(formSelectors.alertSuccess).classList.remove(options.hide);
+                                        triggerMailToChannelUsers(channelName, result["id"], commentBody);
+                                        // loadComments(options.pageNumber);
+                                        toggleLoader(false);
+                                    } else {
+                                        commentForm.querySelector(formSelectors.alertError).classList.remove(options.hide);
+                                    }
+                                }
+                            }).catch(error => {
+                                console.log("error", error);
+                            });
+                    }
+                }
+            });
+        }
+    }
+
+    function loadComments(pageNumber) {
+        options.pageNumber = pageNumber;
+        fetch(getCommentsEndpoint, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify({
+                "appName": appName,
+                "articleId": articleId,
+                "pageNumber": pageNumber,
+                "size": options.pageSize
+            }),
+        }).then(response => response.json())
+            .then(result => {
+                if (result && result.hasOwnProperty("comments")) {
+                    let comments = result["comments"];
+                    if (comments.length > 0) {
+                        let commentsContainer = document.querySelector(formSelectors.commentsContainer);
+                        commentsContainer.innerHTML = "";
+                        comments.forEach(function (commentDetails, index) {
+                            addComment(commentsContainer, commentDetails);
+                            if (comments.length - 1 === index) {
+                                updateTotalCount();
+                            }
+                        });
+                    } else {
+                        toggleLoader(false);
+                    }
+                }
+            }).catch(error => {
+                console.log("error", error);
+                toggleLoader(false);
+            });
+
+    }
+
+    function addComment(commentsContainer, commentDetails) {
+        let commentId = commentDetails["comment"]["id"];
+        let commentorName = commentDetails["user"]["name"];
+        let commentBody = commentDetails["comment"]["body"];
+        let replyCount = commentDetails["comment"]["replyCount"];
+        let status = commentDetails["comment"]["status"];
+        let commentDate = "";
+
+        let createdAt = commentDetails["comment"]["createdAt"];
+        if (createdAt) {
+            let convertedDate = new Date(0);
+            if (createdAt.toString().length === 10) {
+                convertedDate.setUTCSeconds(Number(createdAt));
+            } else if (createdAt.toString().length === 13) {
+                convertedDate.setUTCMilliseconds(Number(createdAt));
+            }
+
+            commentDate = getLanguageSpecificDate(convertedDate, language);
+        }
+
+        if (commentId && commentorName && commentBody && commentDate) {
+            let commentSectionCloned = commentSectionTemplate.cloneNode(true);
+
+            commentSectionCloned.querySelector(commentSelectors.commentTitle).innerText = commentorName;
+
+            let commentDateLabelElement = commentSectionCloned.querySelector(commentSelectors.commentDate);
+            if (commentDateLabelElement) {
+                commentDateLabelElement.setAttribute("datatime", createdAt);
+                commentDateLabelElement.innerText = commentDate;
+            }
+
+            let commentedText = "", moreCommentsText = "", showMoreOrLessButtons = "", replyCommentSection = "";
+            if (commentBody.length > paragraphLimit) {
+                var words = commentBody.split(" ");
+                for (i = 0; i < words.length; i++) {
+                    if (commentedText.length < paragraphLimit) {
+                        commentedText += commentedText === "" ? words[i] : " " + words[i];
+                    } else {
+                        moreCommentsText += " " + words[i];
+                    }
+                }
+
+                if (moreCommentsText) {
+                    moreCommentsText = `<span id="more" class="lp__moreText hidden">${moreCommentsText}</span>`;
+                    commentedText += `<span id="dots" class="lp__dots">... </span>`;
+                    showMoreOrLessButtons = `<a tabindex="0" herf="#" class="lp__read_more">${readMore}</a>
+                        <a tabindex="0" herf="#" class="lp__read_less hidden">${readLess}</a>`;
+                }
+            } else {
+                commentedText = commentBody;
+                showMoreOrLessButtons = "";
+            }
+
+            let commentBox = commentSectionCloned.querySelector(commentSelectors.commentBox);
+            if (commentBox) {
+                commentBox.querySelector(commentSelectors.conversationBodyEditable).innerHTML = commentBody;
+                commentBox.querySelector(commentSelectors.conversationBody).innerHTML = commentedText + moreCommentsText;
+                commentBox.querySelector(commentSelectors.showMoreButtons).innerHTML = showMoreOrLessButtons;
+
+                let readMoreButton = commentBox.querySelector(commentSelectors.readMore);
+                if (readMoreButton) {
+                    readMoreButton.addEventListener("click", function (event) {
+                        readMoreEvent(readMoreButton);
+                    });
+
+                    readMoreButton.addEventListener("keypress", function (event) {
+                        if (event.key === "Enter") {
+                            readMoreEvent(readMoreButton);
+                        }
+                    });
+                }
+
+                let readLessButton = commentBox.querySelector(commentSelectors.readLess);
+                if (readLessButton) {
+                    readLessButton.addEventListener("click", function (event) {
+                        readLessEvent(readLessButton);
+                    });
+
+                    readLessButton.addEventListener("keypress", function (event) {
+                        if (event.key === "Enter") {
+                            readLessEvent(readLessButton);
+                        }
+                    });
+                }
+
+                let replyComment = commentBox.querySelector(commentSelectors.replyComment);
+                if (replyComment) {
+                    replyComment.setAttribute("data-comment-id", commentId);
+                    replyCommentEvent(replyComment);
+                }
+            }
+
+            if (replyCount > 0) {
+                fetch(getCommentsEndpoint, {
+                    method: "POST",
+                    headers: headers,
+                    body: JSON.stringify({
+                        "appName": appName,
+                        "articleId": articleId,
+                        "pageNumber": 1,
+                        "size": 100,
+                        "commentId": commentId
+                    }),
+                }).then(response => response.json())
+                    .then(result => {
+                        if (result && result.hasOwnProperty("comments")) {
+                            let nestedComments = result["comments"];
+                            if (nestedComments.length > 0) {
+                                let nestedCommentsContainer = commentSectionCloned.querySelector(commentSelectors.commentBox);
+                                nestedComments.forEach(function (nestedCommentDetails) {
+                                    let replyComment = document.createElement("div");
+                                    replyComment.classList = "comment-reply";
+                                    nestedCommentsContainer.querySelector(".nested-comments-wrapper").appendChild(replyComment);
+                                    addComment(replyComment, nestedCommentDetails);
+                                });
+                            }
+                        }
+                    }).catch(error => {
+                        console.log("error", error);
+                    });
+            }
+            commentsContainer.appendChild(commentSectionCloned);
+        }
+    }
+
+    function replyCommentEvent(replyComment) {
+        replyComment.addEventListener("click", function (event) {
+            let commentId = replyComment.getAttribute("data-comment-id");
+            let commentBox = replyComment.closest(commentSelectors.commentBox);
+            if (commentBox) {
+                replyComment.style.display = "none";
+                let nestedForm = commentForm.cloneNode(true);
+                if (nestedForm) {
+                    nestedForm.querySelector("#userName").setAttribute("id", "userName" + commentId);
+                    nestedForm.querySelector("[for=userName]").setAttribute("for", "userName" + commentId);
+
+                    let nestedUserEmail = nestedForm.querySelector("#userEmail");
+                    if (nestedUserEmail) {
+                        nestedUserEmail.setAttribute("id", "userEmail" + commentId);
+                        nestedForm.querySelector("[for=userEmail]").setAttribute("for", "userEmail" + commentId);
+                        nestedForm.querySelector("#hiddenMessageEmail").setAttribute("id", "hiddenMessageEmail" + commentId);
+                        nestedForm.querySelector("[aria-describedby=hiddenMessageEmail]").setAttribute("aria-describedby", "hiddenMessageEmail" + commentId);
+                    }
+
+                    nestedForm.querySelector("#userResponseTextarea").setAttribute("id", "userResponseTextarea" + commentId);
+                    nestedForm.querySelector("[for=userResponseTextarea]").setAttribute("for", "userResponseTextarea" + commentId);
+                    nestedForm.querySelector("[aria-labelledby=userResponseTextarea]").setAttribute("aria-labelledby", "userResponseTextarea" + commentId);
+
+                    nestedForm.querySelector("#conversationCheckbox").setAttribute("id", "conversationCheckbox" + commentId);
+                    nestedForm.querySelector("[for=conversationCheckbox]").setAttribute("for", "conversationCheckbox" + commentId);
+
+                    let alertSuccess = nestedForm.querySelector(formSelectors.alertSuccess);
+                    if (alertSuccess && !alertSuccess.classList.contains(options.hide)) {
+                        alertSuccess.classList.add(options.hide);
+                    }
+
+                    let alertError = nestedForm.querySelector(formSelectors.alertError);
+                    if (alertError && !alertError.classList.contains(options.hide)) {
+                        alertError.classList.add(options.hide);
+                    }
+
+                    commentBox.insertBefore(nestedForm, commentBox.querySelector(".nested-comments-wrapper"));
+                    submitCommentForm(commentBox.querySelector(".lp__conversation_form"), commentId);
+                }
+            }
+        });
+    }
+
+    function triggerMailToChannelUsers(channel, commentId, commentBody) {
+        fetch("/wbg/aem/service/blogs/send/email/channel/users", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                "path": document.querySelector('meta[name="pagepath"]').content,
+                "mailTemplate": "/content/dam/sites/blogs/comments-email-templates/email-template.html",
+                "channel": channel,
+                "commentId": commentId,
+                "commentBody": commentBody
+            })
+        })
+            .then(response => response.json())
+            .then(result => {
+                
+            });
+    }
+
+    function toggleLoader(flag) {
+        if (flag) {
+            loader.style.display = "block";
+        } else {
+            loader.style.display = "none";
+        }
+    }
+
+    function readMoreEvent(element) {
+        let commentBox = element.closest(commentSelectors.commentBox);
+        if (commentBox) {
+            commentBox.querySelector(commentSelectors.readMore).classList.add(commentSelectors.hidden)
+            commentBox.querySelector(commentSelectors.readLess).classList.remove(commentSelectors.hidden);
+            commentBox.querySelector(commentSelectors.moreText).classList.remove(commentSelectors.hidden);
+            commentBox.querySelector(commentSelectors.dots).classList.add(commentSelectors.hidden);
+        }
+    }
+
+    function readLessEvent(element) {
+        let commentBox = element.closest(commentSelectors.commentBox);
+        if (commentBox) {
+            commentBox.querySelector(commentSelectors.readMore).classList.remove(commentSelectors.hidden);
+            commentBox.querySelector(commentSelectors.readLess).classList.add(commentSelectors.hidden);
+            commentBox.querySelector(commentSelectors.moreText).classList.add(commentSelectors.hidden);
+            commentBox.querySelector(commentSelectors.dots).classList.remove(commentSelectors.hidden);
+        }
+    }
+
+    function updateTotalCount() {
+        fetch(getCommentsCountEndpoint, {
+            method: "POST",
+            headers: headers,
+            body: JSON.stringify({
+                "appName": appName,
+                "articleId": articleId
+            })
+        })
+            .then(response => response.json())
+            .then(result => {
+                if (result && result.hasOwnProperty("commentCount")) {
+                    let totalCount = result["commentCount"];
+                    wbgData.misc.blogComnts = totalCount;
+                    let commentsCount = document.querySelector(formSelectors.commentsCount);
+                    if (commentsCount) {
+                        commentsCount.innerText = totalCount;
+                        renderPagination(totalCount);
+                        toggleLoader(false);
+                    }
+                }
+            }).catch(error => {
+                console.log("error", error);
+            });
+    }
+
+    function renderPagination(totalCount) {
+        if (totalCount > options.pageSize) {
+            let pagination = document.querySelector(".comments_wrapper .lp__pagination");
+            if (pagination) {
+                pagination.classList.remove(options.hide);
+
+                options.totalItems = totalCount;
+                options.totalPages = Math.ceil(options.totalItems / options.pageSize);
+                let startIndex = (options.pageNumber - 1) * options.pageSize;
+                let endIndex = Math.min(startIndex + options.pageSize - 1, options.totalItems - 1);
+
+                options.rows.forEach((row, index) => {
+                    index >= startIndex && index <= endIndex ? row.classList.remove(options.hide) : row.classList.add(options.hide);
+                });
+
+                var pages = getPages(options.pageNumber);
+                render(pages);
+                setupEvents();
+            }
+        }
+    }
+
+    function getPages(currentPage) {
+        var pages = [];
+
+        var half = Math.floor(options.visiblePages / 2);
+        var start = currentPage - half + 1 - options.visiblePages % 2;
+        var end = currentPage + half;
+
+        if (options.visiblePages > options.totalPages) {
+            options.visiblePages = options.totalPages;
+        }
+
+        // handle boundary case
+        if (start <= 0) {
+            start = 1;
+            end = options.visiblePages;
+        }
+        if (end > options.totalPages) {
+            start = options.totalPages - options.visiblePages + 1;
+            end = options.totalPages;
+        }
+
+        var itPage = start;
+        while (itPage <= end) {
+            pages.push(itPage);
+            itPage++;
+        }
+
+        return { "currentPage": currentPage, "list": pages };
+    }
+
+    function render(pages) {
+        var items = buildListItems(pages);
+        const ul = document.getElementById("pagination");
+        //ul.innerHTML = "";
+        while (ul.hasChildNodes()) {
+            ul.removeChild(ul.firstChild);
+        }
+        items.forEach((li) => {
+            ul.appendChild(li);
+        });
+
+        ul.childNodes.forEach(function (li) {
+            var pageType = li.getAttribute("page-type");
+
+            switch (pageType) {
+                case "page":
+                    if (Number(li.getAttribute("page")) === pages.currentPage) {
+                        li.classList.add(options.activeClass);
+                    }
+                    break;
+                case "prev":
+                    li.classList.toggle(options.disabledClass, !options.loop && pages.currentPage === 1);
+                    break;
+                case "next":
+                    li.classList.toggle(options.disabledClass,
+                        !options.loop && pages.currentPage === options.totalPages);
+                    break;
+                default:
+                    break;
+            }
+        });
+    }
+
+    function buildItem(type, page) {
+        var itemContainer = document.createElement("li");
+        var itemContent = document.createElement("a");
+        var itemText = options[type] ? options[type] : page;
+
+        itemContainer.className = options[type + "Class"];
+        itemContainer.setAttribute("page", page);
+        itemContainer.setAttribute("page-type", type);
+
+        itemContent.setAttribute("href", options.href ? page : "#");
+        itemContent.classList.add(options.anchorClass);
+        itemContent.text = itemText;
+        itemContainer.append(itemContent);
+
+        return itemContainer;
+    }
+
+    function buildListItems(pages) {
+        var listItems = [];
+
+        if (options.prev) {
+            var prev = pages.currentPage > 1 ? pages.currentPage - 1 : options.loop ? options.totalPages : 1;
+            listItems.push(buildItem("prev", prev));
+        }
+
+        for (var i = 0; i < pages.list.length; i++) {
+            listItems.push(buildItem("page", pages.list[i]));
+        }
+
+        if (options.next) {
+            var next = pages.currentPage < options.totalPages ? pages.currentPage + 1 : options.loop ? 1 : options.totalPages;
+            listItems.push(buildItem("next", next));
+        }
+
+        return listItems;
+    }
+
+    function setupEvents() {
+        document.querySelectorAll(commentSelectors.pageItem).forEach((page) => {
+            const pageIndex = Number(page.getAttribute("page"));
+
+            if (pageIndex) {
+                page.addEventListener("click", (event) => {
+                    event.preventDefault()
+                    toggleLoader(true);
+                    document.querySelector(formSelectors.commentsContainer).scrollIntoView();
+                    loadComments(pageIndex);
+                });
+            }
+        });
+    }
+
+    function validateUserName(userName, commentForm) {
+        let userNameErrorMessage = commentForm.querySelector(formSelectors.userNameErrorMessage);
+        if (userNameErrorMessage) {
+            if (userName) {
+                userNameErrorMessage.style.display = "none";
+                return true;
+            } else {
+                userNameErrorMessage.style.display = "block";
+                return false;
+            }
+        }
+    }
+
+    function validateEmail(mail, commentForm) {
+        let emailErrorMessage = commentForm.querySelector(formSelectors.emailErrorMessage);
+        if (emailErrorMessage) {
+            if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)) {
+                emailErrorMessage.style.display = "none";
+                return true;
+            } else {
+                emailErrorMessage.style.display = "block";
+                return false;
+            }
+        }
+    }
+
+    function validateResponseText(responseText, commentForm) {
+        let responseErrorMessage = commentForm.querySelector(formSelectors.responseErrorMessage);
+        if (responseErrorMessage) {
+            if (responseText) {
+                responseErrorMessage.style.display = "none";
+                return true;
+            } else {
+                responseErrorMessage.style.display = "block";
+                return false;
+            }
+        }
+    }
+
+    function validateTerms(termsAndConditions, commentForm) {
+        let termsAndConditionsErrorMessage = commentForm.querySelector(formSelectors.termsAndConditionsErrorMessage);
+        if (termsAndConditionsErrorMessage) {
+            if (termsAndConditions.checked) {
+                termsAndConditionsErrorMessage.style.display = "none";
+                return true;
+            }
+            termsAndConditionsErrorMessage.style.display = "block";
+            return false;
+        }
+    }
+}
+
+if (document.readyState !== "loading") {
+    onDocumentReady();
+} else {
+    document.addEventListener("DOMContentLoaded", onDocumentReady);
+}
